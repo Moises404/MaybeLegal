@@ -1,0 +1,109 @@
+body {
+
+}
+
+#scene {
+	height:100%;
+	width: 100%;
+}
+
+#face {
+	display: inline-block;
+	position: absolute;
+	width: 560px;
+	height: 500px;
+	top: 50%;
+	left: 50%;
+	margin-left: -280px;
+	margin-top: -250px;
+
+	border: 1px solid black;v
+
+}
+
+.layer1 {
+	position: absolute;
+	width: 120px;
+	left: 50%;
+	margin-left: -60px;
+	top: 170px;
+}
+
+.layer2 {
+	position: absolute;
+	width: 400px;
+
+	left: 50%;
+	top: 50%;
+
+	margin-left: -200px;
+	margin-top: -230px;
+
+	/*border: 1px solid black;*/
+}
+
+.layer3 {
+	position: absolute;
+	width: 100px;
+
+	left: 0px;
+	top: 0px;
+
+}
+
+.layer4 {
+	position: absolute;
+
+	width: 100px;
+	left: 300px;
+	top: 106px;
+
+}
+
+.layer5 {
+	position: absolute;
+	width: 100px;
+
+	left: 0px;
+	top: 0px;
+
+}
+.layer6 {
+	position: absolute;
+	width: 150px;
+	left: 50%;
+	margin-left: -75px;
+	top: 250px;
+
+}
+.layer7 {
+	position: absolute;
+	width: 50px;
+	left: 50%;
+	margin-left: -25px;
+	top: 230px;
+
+}
+.layer8 {
+	position: absolute;
+	width: 490px;
+	left: 460px;
+	top: 200px;
+	
+
+}
+.layer9 {
+	position: absolute;
+	width: 100px;
+	
+	left: 0px;
+	top: 150px;
+
+}
+.layer10 {
+	position: absolute;
+	width: 1000px;
+	left: 200px;
+	top: 0px;
+
+}
