@@ -84,7 +84,7 @@ var mb_animGif = [
 // 
 
 for (i = 0; i < mb_logos_imgSrc.length; i++) {
-	var logo = new mb_logo(mb_logos_imgSrc[i], "200px");
+	var logo = new mb_logo(mb_logos_imgSrc[i], "250px");
 	logoArray.push(logo);
 }
 
