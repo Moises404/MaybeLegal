@@ -158,15 +158,22 @@ body {
 }
 
 .shareWrapper {
-	width:225px;
+	width:auto;
 	height:auto;
 	padding:10px;
-	border:1px solid black;
 	margin-top:50px;
-	-webkit-transition: all .5s ease-in-out; 
+	-webkit-transition: all .25s ease-in-out; 
 
 }
 
+[class^="icon-"] {
+	padding-right:7px;
+	-webkit-transition: all .2s ease-in-out; 
+}
+.icon-3x:hover {
+ 	-webkit-transform: scale(1.1);
+ 	opacity:.6;
+}
 .hideShare {
 	margin-left:-400px;
 }
