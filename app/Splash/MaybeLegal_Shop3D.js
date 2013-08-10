@@ -146,5 +146,10 @@ currentGif_inner.load( function() {
     		//currentLogoHeight = (logo_temp_jQuery.css("height"));
 		}
 
+
+	$('.menu_share').click(function(){
+		$('.shareWrapper').toggleClass('hideShare');
+	});
+
 		
 });

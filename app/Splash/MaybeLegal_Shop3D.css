@@ -129,6 +129,8 @@ body {
 .menu_button {
 	padding: 0px 8px;
 	margin-left: 5px;
+	height: 25px;
+	line-height: 30px;
 	float: left;
 	background-color: rgba(255,255,255,0.3);
 	z-index: 10;
@@ -153,6 +155,20 @@ body {
 
 .mb-gif {
 	opacity: 1;
+}
+
+.shareWrapper {
+	width:225px;
+	height:auto;
+	padding:10px;
+	border:1px solid black;
+	margin-top:50px;
+	-webkit-transition: all .5s ease-in-out; 
+
+}
+
+.hideShare {
+	margin-left:-400px;
 }
 
 #container img{
