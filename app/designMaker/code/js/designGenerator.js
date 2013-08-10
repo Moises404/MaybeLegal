@@ -83,6 +83,8 @@ $(document).ready(function() {
 	/* -- BACKGROUND -- */
 			//Background array
 			var backgroundArray = [
+			"../../assets/background/commedegarcons_background.jpg",
+			"../../assets/background/southpark_background.jpg"
 			]
 
 
@@ -100,7 +102,8 @@ $(document).ready(function() {
 			//logo
 				//var logo_image = logoArray[Math.floor(Math.random()* 10)];
 			//background
-				//var background_image = backgroundArray[Math.floor(Math.random()* 10)];
+				//var background_image = backgroundArray[Math.flo(or(Math.random()* 10)];
+				var background_image = backgroundArray[Math.floor(Math.random()* 2)];
 
 
 
@@ -136,6 +139,7 @@ $(document).ready(function() {
 
 			// append body
 			var layer8 = $(".layer8");
+			layer8.attr("src", body_image);
 			//layer7.src = body_image;
 
 			// append logo
@@ -144,6 +148,7 @@ $(document).ready(function() {
 
 			//append background
 			var layer10 = $(".layer10");
+			layer10.attr("src", background_image);
 			//layer10.src = background_image;
 });
 
