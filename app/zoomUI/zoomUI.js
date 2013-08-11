@@ -21,8 +21,12 @@ $( document ).ready(function() {
 	
 
 
-	// initialize canvas-ui variables
+	// initialize canvas-ui, image-bin, and modal layer section variables
+		var imageBin = $('.image-bin');
+		var modalLayer = $('.modal-layer');
 		var designCanvas = $('.canvas-ui');
+
+		// initialize canvas-ui button variables
 		var designButton = $('.canvas-design-button');
 		var productButton = $('.canvas-product-button');
 		var completeButton = $('.canvas-complete-button');
@@ -83,6 +87,11 @@ $( document ).ready(function() {
 		} else {
 			designCanvas.toggleClass('design-canvas-zoom-in');		
 		}
+
+		// will not allow user to access image-bin
+		modalLayer.toggle();
+
+
 		
 	}).mouseup(function() {
 		console.log('zoom-button: mouseup');
