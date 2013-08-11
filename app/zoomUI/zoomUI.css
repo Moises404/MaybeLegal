@@ -98,6 +98,10 @@ body {
 		border-radius: 10px;
 	}
 
+	.canvas-tool-button-active {
+		background-color: white;
+	}
+
 	.canvas-design-button {
 		border-radius: 10px 0 0 10px;
 		border-right: 0;
@@ -107,12 +111,29 @@ body {
 		.canvas-design-button:before {
 			content: "";
 			display: block;
-			width: 18px;
-			height: 18px;
+			width: 24px;
+			height: 24px;
 			background-image: url(assets/design_icon.png);
-			background-size: 18px 18px;
-			margin: 5px 15px;
+			background-size: 24px 24px;
+			margin: 2px 14px;
 		}
+
+		/* design-button active */
+			.canvas-design-button-active {
+				border-radius: 10px 0 0 10px;
+				border-right: 0;
+				margin-left: 0;
+			}
+
+				.canvas-design-button-active:before {
+					content: "";
+					display: block;
+					width: 24px;
+					height: 24px;
+					background-image: url(assets/design_icon_active.png);
+					background-size: 24px 24px;
+					margin: 2px 14px;
+				}
 
 	.canvas-product-button {
 		border-radius: 0;
@@ -122,12 +143,28 @@ body {
 		.canvas-product-button:before {
 			content: "";
 			display: block;
-			width: 18px;
-			height: 18px;
+			width: 21px;
+			height: 21px;
 			background-image: url(assets/product_icon.png);
-			background-size: 18px 18px;
+			background-size: 21px 21px;
 			margin: 5px 15px;
 		}
+
+		/* product-button active */
+			.canvas-product-button-active {
+				border-radius: 0;
+				margin-left: 0;
+			}
+
+			.canvas-product-button-active:before {
+				content: "";
+				display: block;
+				width: 21px;
+				height: 21px;
+				background-image: url(assets/product_icon_active.png);
+				background-size: 21px 21px;
+				margin: 5px 15px;
+			}
 
 	.canvas-complete-button {
 		border-radius: 0 10px 10px 0;
@@ -138,12 +175,29 @@ body {
 		.canvas-complete-button:before {
 			content: "";
 			display: block;
-			width: 18px;
-			height: 18px;
+			width: 24px;
+			height: 24px;
 			background-image: url(assets/complete_icon.png);
-			background-size: 18px 18px;
-			margin: 5px 15px;
+			background-size: 24px 24px;
+			margin: 2px 13px;
 		}
+
+		/* complete-button active */
+			.canvas-complete-button-active {
+				border-radius: 0 10px 10px 0;
+				border-left: 0;
+				margin-left: 0;
+			}
+
+			.canvas-complete-button-active:before {
+				content: "";
+				display: block;
+				width: 24px;
+				height: 24px;
+				background-image: url(assets/complete_icon_active.png);
+				background-size: 24px 24px;
+				margin: 2px 13px;
+			}
 
 	.canvas-zoom-button {
 		margin-left: 8px;
@@ -152,20 +206,12 @@ body {
 		.canvas-zoom-button:before {
 			content: "";
 			display: block;
-			width: 18px;
-			height: 18px;
+			width: 30px;
+			height: 26px;
 			background-image: url(assets/zoom_in_icon.png);
-			background-size: 18px 18px;
-			margin: 5px 15px;
+			background-size: 30px 26px;
+			margin: 2px 11px;
 		}
-
-	
-	.classBlue {
-		background-color: blue;
-	}
-	.classRed {
-		background-color: red;
-	}
 
 	/* CSS ANIMATIONS */
 
