@@ -1,0 +1,103 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: green;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* IMAGE DATABASE */
+
+	.image-bin {
+		height: 100%;
+		width: 100%;
+	}
+
+
+/* DESIGN CANVAS */
+
+	.design-canvas {
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		margin-left: -200px;
+		margin-top: -200px;
+		width: 400px;
+		height: 400px;
+		background-color: yellow;
+	}
+
+	.canvas-zoom-button {
+		width: 100px;
+		height: 50px;
+		position: absolute;
+		background-color: red;
+		border-radius: 4px;
+		margin: 10px;
+		right: 0;
+		bottom: 0;
+		color: white;
+	}
+
+	.zoom-button-word {
+		font-size: 25px;
+		display: block;
+		width: 75px;
+		position: relative;
+		margin: 10 auto;
+		font-family: arial;
+	}
+
+	
+	.classBlue {
+		background-color: blue;
+	}
+	.classRed {
+		background-color: red;
+	}
+
+	/* CSS ANIMATIONS */
+	
+	.design-canvas-zoom-out {
+	-webkit-animation-duration: .6s;
+	-webkit-animation-name: zoomOut;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	}
+
+	@-webkit-keyframes zoomOut {
+	  from {
+	  	-webkit-transform: scale(2);
+		transform: scale(2);
+	  }
+
+	  to {
+	  	-webkit-transform: scale(1);
+		transform: scale(1);
+	  }
+	}
+
+	.design-canvas-zoom-in {
+	-webkit-animation-duration: .6s;
+	-webkit-animation-name: zoomIn;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	}
+
+	@-webkit-keyframes zoomIn {
+		from {
+			-webkit-transform: scale(1);
+			transform: scale(1);
+		}
+
+		to {
+			-webkit-transform: scale(2);
+			transform: scale(2);
+		}
+	}
+
