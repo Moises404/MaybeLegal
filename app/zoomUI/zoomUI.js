@@ -19,16 +19,12 @@ $( document ).ready(function() {
 	// APP STARTS //
 	////////////////
 	
-	var designCanvas = $('.design-canvas');
+	var designCanvas = $('.canvas-ui');
 	var zoomButton = $('.canvas-zoom-button');
 	var zoomButtonMousedown = false;
 	var zoomButtonToggle_zoomIn = false;
 	var zoomButton_firstClick = true;
-	
-	/*zoomButton.click( function() {
-		console.log('zoom+');
-		designCanvas.addClass('design-canvas-zoom-in');
-	});*/
+
 
 	zoomButton.mousedown(function() {
 		console.log('zoom-button: mousedown');

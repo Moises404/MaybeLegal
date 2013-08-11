@@ -178,8 +178,8 @@ body {
 
 	@-webkit-keyframes zoomOut {
 	  from {
-	  	-webkit-transform: scale(2);
-		transform: scale(2);
+	  	-webkit-transform: scale(1.5);
+		transform: scale(1.5);
 	  }
 
 	  to {
@@ -202,8 +202,8 @@ body {
 		}
 
 		to {
-			-webkit-transform: scale(2);
-			transform: scale(2);
+			-webkit-transform: scale(1.5);
+			transform: scale(1.5);
 		}
 	}
 
