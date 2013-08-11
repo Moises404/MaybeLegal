@@ -21,36 +21,139 @@ body {
 
 /* DESIGN CANVAS */
 
-	.design-canvas {
+	.canvas-ui {
 		position: fixed;
-		left: 50%;
+		display: inline-block;
 		top: 50%;
-		margin-left: -200px;
-		margin-top: -200px;
-		width: 400px;
-		height: 400px;
+		left: 50%;
+		margin-left: -190px;
+		margin-top: -245px;
+		width: 380px;
+		height: 510px;
+		background-color: #fffcfc;
+
+		border-bottom: outset 2px white;
+		border-right: outset 2vpx white;
+
+		-webkit-box-shadow: 1px 13px 26px rgba(50, 50, 50, 0.85);
+		-moz-box-shadow:    1px 13px 26px rgba(50, 50, 50, 0.85);
+		box-shadow:         1px 13px 26px rgba(50, 50, 50, 0.85);
+
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+
+	.canvas-artboard-border {
+		position: fixed;
+		display: inline-block;
+		top: 50%;
+		left: 50%;
+		margin-left: -180px;
+		margin-top: -235px;
+		width: 360px;
+		height: 430px;
+		background-color: rgb(93, 230, 166);
+
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+	.canvas-artboard {
+		position: relative;
+		top: 45px;
+		margin: 0 auto;
+		width: 285px;
+		height: 340px;
 		background-color: yellow;
 	}
 
-	.canvas-zoom-button {
-		width: 100px;
+	.canvas-tools {
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		width: 360px;
 		height: 50px;
-		position: absolute;
-		background-color: red;
-		border-radius: 4px;
-		margin: 10px;
-		right: 0;
-		bottom: 0;
-		color: white;
+		margin-left: -180px;
+		margin-top: 205px;
+		background-color: rgb(218, 216, 216);
+
+		-webkit-border-radius: 9px;
+		-moz-border-radius: 9px;
+		border-radius: 9px;
 	}
 
-	.zoom-button-word {
-		font-size: 25px;
-		display: block;
-		width: 75px;
+	.canvas-tools-buttons {
 		position: relative;
-		margin: 10 auto;
-		font-family: arial;
+		float: left;
+		margin: 8px 0px 0px 4px;
+		width: 50px;
+		height: 30px;
+		background-color: rgb(70, 203, 221);
+
+		border: 3px solid #fffcfc;;
+
+		border-radius: 10px;
+	}
+
+	.canvas-design-button {
+		border-radius: 10px 0 0 10px;
+	}
+
+		.canvas-design-button:before {
+			content: "";
+			display: block;
+			width: 18px;
+			height: 18px;
+			background-image: url(assets/design_icon.png);
+			background-size: 18px 18px;
+			margin: 5px 15px;
+		}
+
+	.canvas-product-button {
+		border-radius: 0;
+	}
+
+		.canvas-product-button:before {
+			content: "";
+			display: block;
+			width: 18px;
+			height: 18px;
+			background-image: url(assets/product_icon.png);
+			background-size: 18px 18px;
+			margin: 5px 15px;
+		}
+
+	.canvas-complete-button {
+		border-radius: 0 10px 10px 0;
+	}
+
+		.canvas-complete-button:before {
+			content: "";
+			display: block;
+			width: 18px;
+			height: 18px;
+			background-image: url(assets/complete_icon.png);
+			background-size: 18px 18px;
+			margin: 5px 15px;
+		}
+
+	.canvas-zoom-button {
+		background-color: green;
+	}
+
+		.canvas-zoom-button:before {
+			content: "";
+			display: block;
+			width: 18px;
+			height: 18px;
+			background-image: url(assets/zoom_in_icon.png);
+			background-size: 18px 18px;
+			margin: 5px 15px;
+		}
+
+	.zoom-button-word {
 	}
 
 	
@@ -62,7 +165,7 @@ body {
 	}
 
 	/* CSS ANIMATIONS */
-	
+
 	.design-canvas-zoom-out {
 	-webkit-animation-duration: .6s;
 	-webkit-animation-name: zoomOut;
