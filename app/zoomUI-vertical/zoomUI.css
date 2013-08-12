@@ -57,7 +57,7 @@ body {
 	.canvas-artboard-border {
 		position: relative;
 		display: inline-block;
-		float: left;
+		float: right;
 		margin: 10px 10px 10px 0;
 		height: 360px;
 		width: 440px;
@@ -117,6 +117,7 @@ body {
 	}
 
 	.canvas-settings-button {
+		z-index: 10;
 		top: 0;
 	}
 
@@ -152,13 +153,13 @@ body {
 
 				.settings-options-wrapper {
 					position: absolute;
-					width: 200px;
+					width: 210px;
 					height: 46px;
 					background-color: white;
 					border-radius: 10px;
 					z-index: 5;
 					top: 9px;
-					left: 57px;
+					left: 47px;
 					display: none;
 
 					-webkit-box-shadow: 1px 13px 26px rgba(50, 50, 50, 0.12);

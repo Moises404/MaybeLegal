@@ -54,12 +54,17 @@ $( document ).ready(function() {
 
 				if (settingsButton_firstClick === true) {
 					settingsButton_firstClick = false;
-					console.log('sddgsd');
 					settingsOptions.addClass('settings-options-wrapper-animation-close settings-options-wrapper-animation-open');
 				} else {
 					settingsOptions.toggleClass('settings-options-wrapper-animation-open');		
 				}
 
+		});
+
+		$("#stop").click(function() {
+			$(".rotate").one('animationiteration webkitAnimationIteration', function() {
+				$(this).removeClass("anim");
+			});
 		});
 
 		designButton.click( function() {
