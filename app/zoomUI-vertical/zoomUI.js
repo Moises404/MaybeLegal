@@ -27,6 +27,7 @@ $( document ).ready(function() {
 		var designCanvas = $('.canvas-ui');
 
 		// initialize canvas-ui button variables
+		var settingsButton = $('.canvas-settings-button');
 		var designButton = $('.canvas-design-button');
 		var productButton = $('.canvas-product-button');
 		var completeButton = $('.canvas-complete-button');
@@ -39,6 +40,15 @@ $( document ).ready(function() {
 
 
 	// canvas-ui button event handlers
+		settingsButton.click( function() {
+			console.log('settings-mode');
+
+			// creates radio button logic
+				
+				//changes background & button icons
+				$(this).toggleClass('canvas-tool-button-active canvas-settings-button-active');
+		});
+
 		designButton.click( function() {
 			console.log('design-mode');
 

@@ -141,8 +141,8 @@ body {
 					width: 29px;
 					height: 25px;
 					background-image: url(assets/settings_icon_active.png);
-					background-size: 28px 24px;
-					margin: 8px 12px;
+					background-size: 29px 25px;
+					margin: 8px 9px;
 				}
 
 	.canvas-design-button {
@@ -222,11 +222,11 @@ body {
 		.canvas-complete-button:before {
 			content: "";
 			display: block;
-			width: 24px;
+			width: 29px;
 			height: 24px;
 			background-image: url(assets/complete_icon.png);
-			background-size: 26px 26px;
-			margin: 6px 11px;
+			background-size: 29px 24px;
+			margin: 7px 8px;
 		}
 
 		/* complete-button active */
@@ -239,11 +239,11 @@ body {
 			.canvas-complete-button-active:before {
 				content: "";
 				display: block;
-				width: 24px;
+				width: 29px;
 				height: 24px;
 				background-image: url(assets/complete_icon_active.png);
-				background-size: 26px 26px;
-				margin: 6px 11px;
+				background-size: 29px 24px;
+				margin: 7px 8px;
 			}
 
 	.canvas-zoom-button {
