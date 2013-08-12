@@ -352,6 +352,7 @@ body {
 
 	.settings-options-wrapper-animation-close {
 		display: inline-block;
+		overflow: hidden;
 
 		-webkit-animation-duration: .3s;
 		-webkit-animation-name: settingsSlideClose;
@@ -371,6 +372,7 @@ body {
 
 	.settings-options-wrapper-animation-open {
 		display: inline-block;
+		overflow: hidden;
 
 		-webkit-animation-duration: .3s;
 		-webkit-animation-name: settingsSlideOpen;
