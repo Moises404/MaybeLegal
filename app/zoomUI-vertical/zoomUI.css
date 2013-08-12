@@ -241,13 +241,17 @@ body {
 
 	@-webkit-keyframes zoomOut {
 	  from {
-	  	-webkit-transform: scale(1.8);
-		transform: scale(1.8);
+	  	-webkit-transform: scale(1.9);
+		transform: scale(1.9);
+		width: 680px;
+		margin-left: -340px;
 	  }
 
 	  to {
 	  	-webkit-transform: scale(1);
 		transform: scale(1);
+		width: 540px;
+		margin-left: -270px;
 	  }
 	}
 
@@ -262,11 +266,14 @@ body {
 		from {
 			-webkit-transform: scale(1);
 			transform: scale(1);
+			width: 540px;
 		}
 
 		to {
-			-webkit-transform: scale(1.8);
-			transform: scale(1.8);
+			-webkit-transform: scale(1.9);
+			transform: scale(1.9);
+			width: 680px;
+			margin-left: -340px;
 		}
 	}
 
