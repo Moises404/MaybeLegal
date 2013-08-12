@@ -43,23 +43,58 @@ $( document ).ready(function() {
 				var settingsButton_firstClick = true;
 
 
-
 	// canvas-ui button event handlers
 		settingsButton.click( function() {
 			console.log('settings-mode');
 				
 				//changes background & button icons
-				$(this).toggleClass('canvas-tool-button-active canvas-settings-button-active');
+				//$(this).toggleClass('canvas-tool-button-active canvas-settings-button-active');
 				//settingsOptions.toggle();
 
 				if (settingsButton_firstClick === true) {
 					settingsButton_firstClick = false;
+					settingsButton.addClass('canvas-tool-button-active canvas-settings-button-active');
 					settingsOptions.addClass('settings-options-wrapper-animation-close settings-options-wrapper-animation-open');
 				} else {
+					settingsButton.addClass('canvas-tool-button-active canvas-settings-button-active');
 					settingsOptions.toggleClass('settings-options-wrapper-animation-open');		
 				}
 
+				// bind animation iteration event listener
+				/*settingsOptions.on("webkitAnimationIteration oAnimationIteration msAnimationIteration animationiteration", function(event){    
+					console.log(event.originalEvent.animationName);
+					//checkAnimEnd(event.originalEvent.animationName);
+				});*/
+
+				/*settingsOptions.one('animationend webkitTransitionEnd', function() {
+					console.log('animationEnd');
+					//settingsButton.toggleClass('canvas-tool-button-active canvas-settings-button-active');
+				});*/
+
 		});
+
+		settingsOptions.bind('webkitAnimationEnd', function (event) {
+			
+			if (event.originalEvent.animationName === 'settingsSlideClose') {
+				settingsButton.removeClass('canvas-tool-button-active canvas-settings-button-active');
+			} else if (event.originalEvent.animationName === 'settingsSlideOpen') {
+				//console.log('settingsSlideOpen');
+			}
+
+			//console.log(event.originalEvent.animationName);
+			//alert("ok")
+			//settingsButton.toggleClass('canvas-tool-button-active canvas-settings-button-active');		
+		});
+
+		/*function checkAnimEnd(animEnd) {	
+			console.log(animEnd);
+			
+			if (animDirection === 'animation-next') {
+				objectsWrapper.prepend($('.unitList li:last'));
+			} else if (animDirection === 'animation-previous') {
+				objectsWrapper.append($('.unitList li:first'));
+			}
+		}*/
 
 		$("#stop").click(function() {
 			$(".rotate").one('animationiteration webkitAnimationIteration', function() {
