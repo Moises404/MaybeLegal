@@ -37,9 +37,9 @@ body {
 		top: 50%;
 		left: 50%;
 		margin-top: -190px;
-		margin-left: -245px;
+		margin-left: -270px;
 		height: 380px;
-		width: 510px;
+		width: 540px;
 		background-color: #fffcfc;
 
 		border-bottom: outset 2px white;
@@ -58,9 +58,9 @@ body {
 		position: relative;
 		display: inline-block;
 		float: left;
-		margin: 10px;
+		margin: 10px 10px 10px 0;
 		height: 360px;
-		width: 430px;
+		width: 440px;
 		background-color: rgb(93, 230, 166);
 
 		-webkit-border-radius: 3px;
@@ -70,11 +70,11 @@ body {
 
 	.canvas-artboard {
 		position: relative;
-		top: 45px;
+		top: 38px;
 		margin: 0 auto;
 		height: 285px;
-		width: 340px;
-		background-color: yellow;
+		width: 354px;
+		background-color: white;
 	}
 
 	.canvas-tools {
@@ -82,7 +82,7 @@ body {
 		position: relative;
 		float: left;
 		height: 360px;
-		width: 65px;
+		width: 70px;
 		margin: 10px 10px;
 		background-color: rgb(218, 216, 216);
 
@@ -92,16 +92,17 @@ body {
 	}
 
 	.tools-wrapper {
-		position: relative;
+		position: absolute;
 		width: 50px;
-		margin: 0 auto;
+		height: 260px;
+		bottom: 0;
 		display: inline-block;
 	}
 
 	.canvas-tools-buttons {
 		position: relative;
 		float: left;
-		margin: 7px;
+		margin: 9px;
 		width: 45px;
 		height: 40px;
 		background-color: rgb(70, 203, 221);
@@ -128,7 +129,7 @@ body {
 			height: 24px;
 			background-image: url(assets/design_icon.png);
 			background-size: 24px 24px;
-			margin: 2px 14px;
+			margin: 8px 12px;
 		}
 
 		/* design-button active */
@@ -145,7 +146,7 @@ body {
 					height: 24px;
 					background-image: url(assets/design_icon_active.png);
 					background-size: 24px 24px;
-					margin: 2px 14px;
+					margin: 8px 12px;
 				}
 
 	.canvas-product-button {
@@ -157,11 +158,11 @@ body {
 		.canvas-product-button:before {
 			content: "";
 			display: block;
-			width: 21px;
-			height: 21px;
+			width: 23px;
+			height: 23px;
 			background-image: url(assets/product_icon.png);
-			background-size: 21px 21px;
-			margin: 5px 15px;
+			background-size: 23px 23px;
+			margin: 8px 11px;
 		}
 
 		/* product-button active */
@@ -174,11 +175,11 @@ body {
 			.canvas-product-button-active:before {
 				content: "";
 				display: block;
-				width: 21px;
-				height: 21px;
+				width: 23px;
+				height: 23px;
 				background-image: url(assets/product_icon_active.png);
-				background-size: 21px 21px;
-				margin: 5px 15px;
+				background-size: 23px 23px;
+				margin: 8px 11px;
 			}
 
 	.canvas-complete-button {
@@ -193,8 +194,8 @@ body {
 			width: 24px;
 			height: 24px;
 			background-image: url(assets/complete_icon.png);
-			background-size: 24px 24px;
-			margin: 2px 13px;
+			background-size: 26px 26px;
+			margin: 6px 11px;
 		}
 
 		/* complete-button active */
@@ -210,22 +211,23 @@ body {
 				width: 24px;
 				height: 24px;
 				background-image: url(assets/complete_icon_active.png);
-				background-size: 24px 24px;
-				margin: 2px 13px;
+				background-size: 26px 26px;
+				margin: 6px 11px;
 			}
 
 	.canvas-zoom-button {
-		margin-left: 0px;
+		position: absolute;
+		bottom: 0;
 	}
 
 		.canvas-zoom-button:before {
 			content: "";
 			display: block;
-			width: 30px;
-			height: 26px;
+			width: 38px;
+			height: 34px;
 			background-image: url(assets/zoom_in_icon.png);
-			background-size: 30px 26px;
-			margin: 2px 11px;
+			background-size: 38px 34px;
+			margin: 4px 4px;
 		}
 
 	/* CSS ANIMATIONS */
