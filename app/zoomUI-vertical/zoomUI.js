@@ -28,6 +28,7 @@ $( document ).ready(function() {
 
 		// initialize canvas-ui button variables
 		var settingsButton = $('.canvas-settings-button');
+		var settingsOptions = $('.settings-options-wrapper')
 		var designButton = $('.canvas-design-button');
 		var productButton = $('.canvas-product-button');
 		var completeButton = $('.canvas-complete-button');
@@ -47,6 +48,8 @@ $( document ).ready(function() {
 				
 				//changes background & button icons
 				$(this).toggleClass('canvas-tool-button-active canvas-settings-button-active');
+				settingsOptions.toggle();
+
 		});
 
 		designButton.click( function() {

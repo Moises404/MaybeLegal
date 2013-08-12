@@ -133,6 +133,9 @@ body {
 		/* settings-button active */
 			.canvas-settings-button-active {
 				top: 0;
+				z-index: 10;
+				width: 60px;
+				border-color: white;
 			}
 
 				.canvas-settings-button-active:before {
@@ -143,6 +146,25 @@ body {
 					background-image: url(assets/settings_icon_active.png);
 					background-size: 29px 25px;
 					margin: 8px 9px;
+				}
+
+				/* Settings Options */
+
+				.settings-options-wrapper {
+					position: absolute;
+					width: 200px;
+					height: 150px;
+					background-color: white;
+					border-radius: 10px;
+					z-index: 5;
+					top: 9px;
+					left: 57px;
+					display: none;
+
+					-webkit-box-shadow: 1px 13px 26px rgba(50, 50, 50, 0.05);
+					-moz-box-shadow:    1px 13px 26px rgba(50, 50, 50, 0.05);
+					box-shadow:         1px 13px 26px rgba(50, 50, 50, 0.05);
+
 				}
 
 	.canvas-design-button {
