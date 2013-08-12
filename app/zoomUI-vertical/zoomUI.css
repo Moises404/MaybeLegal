@@ -159,6 +159,7 @@ body {
 					z-index: 5;
 					top: 9px;
 					left: 57px;
+					display: none;
 
 					-webkit-box-shadow: 1px 13px 26px rgba(50, 50, 50, 0.12);
 					-moz-box-shadow:    1px 13px 26px rgba(50, 50, 50, 0.12);
@@ -330,6 +331,8 @@ body {
 	}
 
 	.settings-options-wrapper-animation-close {
+		display: inline-block;
+
 		-webkit-animation-duration: .4s;
 		-webkit-animation-name: settingsSlideClose;
 		-webkit-animation-iteration-count: 1;
@@ -339,16 +342,16 @@ body {
 	@-webkit-keyframes settingsSlideClose {
 		from {
 			width: 180px;
-			display: inline-block;
 		}
 
 		to {
 			width: 0px;
-			display: none;
 		}
 	}
 
 	.settings-options-wrapper-animation-open {
+		display: inline-block;
+
 		-webkit-animation-duration: .4s;
 		-webkit-animation-name: settingsSlideOpen;
 		-webkit-animation-iteration-count: 1;
@@ -358,12 +361,10 @@ body {
 	@-webkit-keyframes settingsSlideOpen {
 		from {
 			width: 0px;
-			display: none;
 		}
 
 		to {
-			width: 180px;
-			display:inline-block;
+			width: 180px
 		}
 	}
 
