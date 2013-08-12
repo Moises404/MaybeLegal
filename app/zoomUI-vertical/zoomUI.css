@@ -94,7 +94,7 @@ body {
 	.tools-wrapper {
 		position: absolute;
 		width: 50px;
-		height: 260px;
+		height: 360px;
 		bottom: 0;
 		display: inline-block;
 	}
@@ -116,20 +116,50 @@ body {
 		background-color: white;
 	}
 
+	.canvas-settings-button {
+		top: 0;
+	}
+
+		.canvas-settings-button:before {
+			content: "";
+			display: block;
+			width: 29px;
+			height: 25px;
+			background-image: url(assets/settings_icon.png);
+			background-size: 29px 25px;
+			margin: 8px 9px;
+		}
+
+		/* settings-button active */
+			.canvas-settings-button-active {
+				top: 0;
+			}
+
+				.canvas-settings-button-active:before {
+					content: "";
+					display: block;
+					width: 29px;
+					height: 25px;
+					background-image: url(assets/settings_icon_active.png);
+					background-size: 28px 24px;
+					margin: 8px 12px;
+				}
+
 	.canvas-design-button {
 		border-radius: 10px 10px 0 0;
 		border-bottom: 0;
 		margin-bottom: 0;
+		margin-top: 50px;
 	}
 
 		.canvas-design-button:before {
 			content: "";
 			display: block;
-			width: 24px;
+			width: 28px;
 			height: 24px;
 			background-image: url(assets/design_icon.png);
-			background-size: 24px 24px;
-			margin: 8px 12px;
+			background-size: 28px 24px;
+			margin: 8px 9px;
 		}
 
 		/* design-button active */
@@ -137,16 +167,17 @@ body {
 				border-radius: 10px 10px 0 0;
 				border-bottom: 0;
 				margin-bottom: 0;
+				margin-top: 50px;
 			}
 
 				.canvas-design-button-active:before {
 					content: "";
 					display: block;
-					width: 24px;
+					width: 28px;
 					height: 24px;
 					background-image: url(assets/design_icon_active.png);
-					background-size: 24px 24px;
-					margin: 8px 12px;
+					background-size: 28px 24px;
+					margin: 8px 9px;
 				}
 
 	.canvas-product-button {
