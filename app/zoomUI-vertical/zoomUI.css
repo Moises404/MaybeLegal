@@ -164,7 +164,27 @@ body {
 					-webkit-box-shadow: 1px 13px 26px rgba(50, 50, 50, 0.12);
 					-moz-box-shadow:    1px 13px 26px rgba(50, 50, 50, 0.12);
 					box-shadow:         1px 13px 26px rgba(50, 50, 50, 0.12);
+				}
 
+				.settings-options {
+					width: 30px;
+					height: 25px;
+					margin: 10px 0px 8px 15px;
+					float: left;
+					background-size: 30px 25px;
+				}
+
+				.settings-options-main-menu {
+					margin-left: 25px;
+					background-image: url(assets/home_icon_active.png);
+				}
+
+				.settings-options-new-canvas {
+					background-image: url(assets/new_canvas_icon_activate.png);
+				}
+
+				.settings-options-help {
+					background-image: url(assets/help_icon_active.png);
 				}
 
 	.canvas-design-button {
@@ -341,7 +361,7 @@ body {
 
 	@-webkit-keyframes settingsSlideClose {
 		from {
-			width: 180px;
+			width: 158px;
 		}
 
 		to {
@@ -364,7 +384,7 @@ body {
 		}
 
 		to {
-			width: 180px
+			width: 158px
 		}
 	}
 
