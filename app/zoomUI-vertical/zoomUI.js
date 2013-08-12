@@ -28,7 +28,7 @@ $( document ).ready(function() {
 
 		// initialize canvas-ui button variables
 		var settingsButton = $('.canvas-settings-button');
-		var settingsOptions = $('.settings-options-wrapper')
+		var settingsOptions = $('.settings-options-wrapper');
 		var designButton = $('.canvas-design-button');
 		var productButton = $('.canvas-product-button');
 		var completeButton = $('.canvas-complete-button');
@@ -39,16 +39,26 @@ $( document ).ready(function() {
 				var zoomButtonToggle_zoomIn = false;
 				var zoomButton_firstClick = true;
 
+			// checks logic for settings animation
+				var settingsButton_firstClick = true;
+
+
 
 	// canvas-ui button event handlers
 		settingsButton.click( function() {
 			console.log('settings-mode');
-
-			// creates radio button logic
 				
 				//changes background & button icons
 				$(this).toggleClass('canvas-tool-button-active canvas-settings-button-active');
-				settingsOptions.toggle();
+				//settingsOptions.toggle();
+
+				if (settingsButton_firstClick === true) {
+					settingsButton_firstClick = false;
+					console.log('sddgsd');
+					settingsOptions.addClass('settings-options-wrapper-animation-close settings-options-wrapper-animation-open');
+				} else {
+					settingsOptions.toggleClass('settings-options-wrapper-animation-open');		
+				}
 
 		});
 
