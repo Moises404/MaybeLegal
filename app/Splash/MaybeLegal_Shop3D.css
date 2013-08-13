@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'ITCAvantGardeGothicStdBook';
+    src: url('libs/avantgarde.eot');
+    src: url('libs/avantgarde.eot') format('embedded-opentype'),
+         url('libs/avantgarde.woff') format('woff'),
+         url('libs/avantgarde.ttf') format('truetype'),
+         url('libs/avantgarde.svg#ITCAvantGardeGothicStdBook') format('svg');
+}
+
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: white;
+	background-repeat: no-repeat;
+	margin: 0;
+	font-family: 'ITCAvantGardeGothicStdBook';
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+#container {
+	z-index: 0;
+}
+
+.title {
+	margin-top: 15px;
+	margin-left: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 250px;
+	text-align: center;
+	display: block;
+	z-index: 99;
+
+}
+#search {
+	/*position: absolute;
+	background-image: url('imgs/MaybeLegal_Logos/MaybeLegal_UrbanOutfitters.png');
+	background-repeat: no-repeat;
+	top: 0;
+	left: 0;
+	bottom: 30px;
+	width: 100%;
+	text-align: center;
+	display: block;
+	z-index: -10;*/
+	display: none;
+}
+
+#search input {
+	color: #ffffff;
+	background-color: transparent;
+	border: 1px solid #0080ff;
+	padding: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	-webkit-border-radius: 0px; /* workaround for ios safari */
+	display: none;
+}
+
+#search button {
+	color: #0080ff;
+	background-color: transparent;
+	border: 1px solid #0080ff;
+	padding: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: none;
+}
+
+.shirt-index-wrapper {
+	display: none;
+}
+
+.shirt {
+	display: none;
+}
+
+.buy-link {
+	width: 480px;
+	height: 480px;
+	background-color: green;
+}
+
+.buyLink-button {
+	display: inline-block;
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	background-color: black;
+	opacity: 1;
+}
+
+.shirtInfo {
+	display: inline-block;
+	position: absolute;
+	width: 250px;
+	height: 0px;
+	background-color: black;
+	opacity: 0;
+	left: 500px;
+}
+
+.shirtInfo-bgOffset {
+	width: 250px;
+	height: 400px;
+	background-color: white;
+	opacity: 1;
+	margin-left: -10px;
+	margin-top: -10px;
+
+	border: 1px solid black;
+}
+
+.mainMenu {
+	margin-left: 20px;
+	display: block;
+	padding: 0;
+	position: absolute;
+	z-index: 10;
+}
+
+.menu_button {
+	padding: 0px 8px;
+	margin-left: 5px;
+	height: 25px;
+	line-height: 30px;
+	float: left;
+	background-color: rgba(255,255,255,0.3);
+	z-index: 10;
+	color:black;
+	text-decoration:none;
+}
+.menu_button:hover {
+	background-color: white;
+	color: white;
+	background:rgba(0,0,0,.8);
+}
+
+.logo-temp-Image {
+	display: block;
+}
+.mb-gif-wrapper {
+	position: fixed;
+	display: block;
+	z-index: 30;
+	opacity: 1;
+}
+
+.mb-gif {
+	opacity: 1;
+}
+
+.shareWrapper {
+	width:auto;
+	height:auto;
+	padding:10px;
+	margin-top:50px;
+	-webkit-transition: all .25s ease-in-out; 
+
+}
+
+[class^="icon-"] {
+	padding-right:7px;
+	-webkit-transition: all .2s ease-in-out; 
+}
+.icon-3x:hover {
+ 	-webkit-transform: scale(1.1);
+ 	opacity:.6;
+}
+.hideShare {
+	margin-left:-400px;
+}
+
+#container img{
+	-webkit-transition: all .2s ease-in-out; 
+}
+#container img:hover {
+ 	-webkit-transform: scale(1.1);
+}
+
