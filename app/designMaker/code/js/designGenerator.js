@@ -71,7 +71,8 @@ $(document).ready(function() {
 			//Body array 
 			var bodyArray = [
 				"../../assets/character/body/domo_body.png",
-				"../../assets/character/body/mario_body.png"
+				"../../assets/character/body/mario_body.png",
+				"../../assets/character/body/goku_body.png"
 
 			]
 
@@ -98,7 +99,7 @@ $(document).ready(function() {
 				var mouth_image = mouthArray[Math.floor(Math.random()* 5)];
 				var nose_image = noseArray[Math.floor(Math.random()* 4)];
 				//var body_image = bodyArray[Math.floor(Math.random()* 10)];
-				var body_image = bodyArray[Math.floor(Math.random()* 2)];
+				var body_image = bodyArray[Math.floor(Math.random()* 3)];
 			//logo
 				//var logo_image = logoArray[Math.floor(Math.random()* 10)];
 			//background
