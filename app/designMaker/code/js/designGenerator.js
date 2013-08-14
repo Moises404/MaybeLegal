@@ -2,6 +2,7 @@
 $(document).ready(function() {
 
 	console.log("designGenerator!");
+	console.log("cakes?");
 
 	// CHeck if jQuery and jQueryUI have loaded
 	if (jQuery) {  
