@@ -24,7 +24,9 @@ $(document).ready(function() {
 				"../../assets/character/eye/mickey_eye.png",
 				"../../assets/character/eye/spongebob_eye.png",
 				"../../assets/character/eye/elmo_eye.png",
-				"../../assets/character/eye/goku_eye.png"
+				"../../assets/character/eye/goku_eye.png",
+				"../../assets/character/eye/mario_eye.png",
+				"../../assets/character/eye/pikachu_eye.png"
 			]
 
 			//Head array
@@ -33,7 +35,9 @@ $(document).ready(function() {
 				"../../assets/character/head/spongebob_head.png",
 				"../../assets/character/head/hellokitty_head.png",
 				"../../assets/character/head/goku_head.png",
-				"../../assets/character/head/elmo_head.png"
+				"../../assets/character/head/elmo_head.png",
+				"../../assets/character/head/pikachu_head.png"
+
 
 			]
 
@@ -46,10 +50,6 @@ $(document).ready(function() {
 				"../../assets/character/accessory/hellokitty_accessory.png"
 			]
 
-			//Ear array
-			var earArray = [
-			]
-
 			//Mouth array
 			var mouthArray = [
 				"../../assets/character/mouth/mickey_mouth.png",
@@ -57,7 +57,9 @@ $(document).ready(function() {
 				"../../assets/character/mouth/elmo_mouth.png",
 				"../../assets/character/mouth/goku_mouth.png",
 				"../../assets/character/mouth/domo_mouth.png",
-				"../../assets/character/mouth/finn_mouth.png"
+				"../../assets/character/mouth/fin_mouth.png",
+				"../../assets/character/mouth/pikachu_mouth.png",
+				"../../assets/character/mouth/mario_mouth.png"
 			]
 
 			//Nose array 
@@ -65,15 +67,21 @@ $(document).ready(function() {
 				"../../assets/character/nose/mickey_nose.png",
 				"../../assets/character/nose/hellokitty_nose.png",
 				"../../assets/character/nose/elmo_nose.png",
-				"../../assets/character/nose/goku_nose.png"
+				"../../assets/character/nose/goku_nose.png",
+				"../../assets/character/nose/mario_nose.png",
+				"../../assets/character/nose/pikachu_nose.png"
 			]
 
 			//Body array 
 			var bodyArray = [
 				"../../assets/character/body/domo_body.png",
 				"../../assets/character/body/mario_body.png",
-				"../../assets/character/body/goku_body.png"
-
+				"../../assets/character/body/goku_body.png",
+				"../../assets/character/body/elmo_body.png",
+				"../../assets/character/body/hellokitty_body.png",
+				"../../assets/character/body/mickey_body.png",
+				"../../assets/character/body/pikachu_body.png",
+				"../../assets/character/body/spongebob_body.png"
 			]
 
 	/* -- LOGO -- */
@@ -91,19 +99,15 @@ $(document).ready(function() {
 
 	//Select a random asset from each array list
 			//character
-				var eye_image = eyeArray[Math.floor(Math.random()* 5)];
-				var head_image = headArray[Math.floor(Math.random()* 5)];
-				//var hair_image = hairArray[Math.floor(Math.random()* 8)];
+				var eye_image = eyeArray[Math.floor(Math.random()* 7)];
+				var head_image = headArray[Math.floor(Math.random()* 6)];
 				var accessory_image = accessoryArray[Math.floor(Math.random()* 1)];
-				//var ear_image = earArray[Math.floor(Math.random()* 10)];
-				var mouth_image = mouthArray[Math.floor(Math.random()* 5)];
-				var nose_image = noseArray[Math.floor(Math.random()* 4)];
-				//var body_image = bodyArray[Math.floor(Math.random()* 10)];
-				var body_image = bodyArray[Math.floor(Math.random()* 3)];
+				var mouth_image = mouthArray[Math.floor(Math.random()* 8)];
+				var nose_image = noseArray[Math.floor(Math.random()* 6)];
+				var body_image = bodyArray[Math.floor(Math.random()* 8)];
 			//logo
 				//var logo_image = logoArray[Math.floor(Math.random()* 10)];
 			//background
-				//var background_image = backgroundArray[Math.flo(or(Math.random()* 10)];
 				var background_image = backgroundArray[Math.floor(Math.random()* 2)];
 
 
