@@ -37,9 +37,11 @@ body {
 		top: 50%;
 		left: 50%;
 		margin-top: -190px;
-		margin-left: -270px;
-		height: 380px;
-		width: 540px;
+		margin-left: -275px;
+		min-height: 380px;
+		min-width: 540px;
+		width: 50%;
+		height: 30%;
 		background-color: #fffcfc;
 
 		border-bottom: outset 2px white;
@@ -326,7 +328,9 @@ body {
 	  	/*-webkit-transform: scale(1);
 		transform: scale(1);*/
 		width: 50%;
-		min-width: 640px;
+		height: 30%;
+		min-height: 380px;
+		min-width: 540px;
 		/*margin-left: -270px;*/
 	  }
 	}
@@ -343,7 +347,9 @@ body {
 			/*-webkit-transform: scale(1);
 			transform: scale(1);*/
 			width: 50%;
-			min-width: 640px;
+			height: 30%;
+			min-height: 380px;
+			min-width: 540px;
 
 		}
 
