@@ -26,7 +26,9 @@ $(document).ready(function() {
 				"../../assets/character/eye/elmo_eye.png",
 				"../../assets/character/eye/goku_eye.png",
 				"../../assets/character/eye/mario_eye.png",
-				"../../assets/character/eye/pikachu_eye.png"
+				"../../assets/character/eye/pikachu_eye.png",
+				"../../assets/character/eye/domo_eye.png"
+
 			]
 
 			//Head array
@@ -99,7 +101,7 @@ $(document).ready(function() {
 
 	//Select a random asset from each array list
 			//character
-				var eye_image = eyeArray[Math.floor(Math.random()* 7)];
+				var eye_image = eyeArray[Math.floor(Math.random()* 8)];
 				var head_image = headArray[Math.floor(Math.random()* 6)];
 				var accessory_image = accessoryArray[Math.floor(Math.random()* 1)];
 				var mouth_image = mouthArray[Math.floor(Math.random()* 8)];
