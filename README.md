@@ -1,4 +1,0 @@
-MaybeLegal
-==========
-
-MaybeLegal Web App
