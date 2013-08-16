@@ -63,7 +63,6 @@ body {
 		-webkit-flex: 1;
 		flex: 1;
 		position: relative;
-		float: left;
 		margin: 0 0 0 10px;
 		/*min-width: 460px;
 		min-height: 380px;
@@ -88,9 +87,9 @@ body {
 	.canvas-tools {
 		position: relative;
 		display: inline-block;
-		float: left;
 		height: 360px;
 		width: 70px;
+		height: 100%;
 		/*margin: 10px 10px;*/
 		background-color: rgb(218, 216, 216);
 
@@ -103,7 +102,7 @@ body {
 		position: relative;
 		display: inline-block;
 		width: 50px;
-		height: 360px;
+		height: 100%;
 		bottom: 0;
 		
 	}
