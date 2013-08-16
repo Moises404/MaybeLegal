@@ -63,7 +63,7 @@ body {
 		-webkit-flex: 1;
 		flex: 1;
 		position: relative;
-		/*margin: 0 0 0 10px;*/
+		margin: 0 0 0 5px;
 		padding: 45px;
 		display: block;
 		top: 0;
@@ -99,7 +99,7 @@ body {
 		height: 360px;
 		width: 70px;
 		height: 100%;
-		margin-right: 10px;
+		margin-right: 5px;
 		background-color: rgb(218, 216, 216);
 		padding:;
 
@@ -327,7 +327,8 @@ body {
 		height: 360px;
 		width: 140px;
 		height: 100%;
-		margin-right: 10px;
+		margin-left: 5px;
+		margin-right: 5px;
 		background-color: rgb(218, 216, 216);
 		display: none;
 
@@ -336,7 +337,9 @@ body {
 		border-radius: 9px;
 	}
 
+	/******************/
 	/* CSS ANIMATIONS */
+	/******************/
 
 	.design-canvas-zoom-out {
 	-webkit-animation-duration: .6s;
@@ -454,6 +457,8 @@ body {
 
 		to {
 			width: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
 		}
 	}
 
@@ -470,6 +475,8 @@ body {
 	@-webkit-keyframes editToolsWrapperSlideOpen {
 		from {
 			width: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
 		}
 
 		to {
