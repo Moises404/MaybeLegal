@@ -63,7 +63,7 @@ body {
 		-webkit-flex: 1;
 		flex: 1;
 		position: relative;
-		margin: 0 0 0 10px;
+		/*margin: 0 0 0 10px;*/
 		padding: 45px;
 		display: block;
 		top: 0;
@@ -93,14 +93,15 @@ body {
 		background-color: white;
 	}
 
-	.canvas-tools {
+	.canvas-mode-tools {
 		position: relative;
 		display: inline-block;
 		height: 360px;
 		width: 70px;
 		height: 100%;
-		/*margin: 10px 10px;*/
+		margin-right: 10px;
 		background-color: rgb(218, 216, 216);
+		padding:;
 
 		-webkit-border-radius: 9px;
 		-moz-border-radius: 9px;
@@ -320,6 +321,21 @@ body {
 			margin: 4px 4px;
 		}
 
+	.canvas-edit-tools {
+		position: relative;
+		display: inline-block;
+		height: 360px;
+		width: 140px;
+		height: 100%;
+		margin-right: 10px;
+		background-color: rgb(218, 216, 216);
+		display: none;
+
+		-webkit-border-radius: 9px;
+		-moz-border-radius: 9px;
+		border-radius: 9px;
+	}
+
 	/* CSS ANIMATIONS */
 
 	.design-canvas-zoom-out {
@@ -416,6 +432,48 @@ body {
 
 		to {
 			width: 158px
+		}
+	}
+
+
+
+	.canvas-edit-tools-close {
+		display: inline-block;
+		overflow: hidden;
+
+		-webkit-animation-duration: .6s;
+		-webkit-animation-name: editToolsWrapperSlideClose;
+		-webkit-animation-iteration-count: 1;
+		-webkit-animation-fill-mode: forwards;
+	}
+
+	@-webkit-keyframes editToolsWrapperSlideClose {
+		from {
+			width: 140px;
+		}
+
+		to {
+			width: 0px;
+		}
+	}
+
+	.canvas-edit-tools-open {
+		display: inline-block;
+		overflow: hidden;
+
+		-webkit-animation-duration: .6s;
+		-webkit-animation-name: editToolsWrapperSlideOpen;
+		-webkit-animation-iteration-count: 1;
+		-webkit-animation-fill-mode: forwards;
+	}
+
+	@-webkit-keyframes editToolsWrapperSlideOpen {
+		from {
+			width: 0px;
+		}
+
+		to {
+			width: 140px;
 		}
 	}
 

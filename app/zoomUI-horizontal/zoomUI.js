@@ -26,7 +26,7 @@ $( document ).ready(function() {
 		var modalLayer = $('.modal-layer');
 		var designCanvas = $('.canvas-ui');
 
-		// initialize canvas-ui button variables
+		// initialize canvas-ui mode-button variables
 		var settingsButton = $('.canvas-settings-button');
 		var settingsOptions = $('.settings-options-wrapper');
 		var designButton = $('.canvas-design-button');
@@ -41,6 +41,9 @@ $( document ).ready(function() {
 
 			// checks logic for settings animation
 				var settingsButton_firstClick = true;
+
+		// initialize canvas-ui edit-button variables
+		var editToolsWrapper = $('.canvas-edit-tools');
 
 
 	// canvas-ui button event handlers
@@ -147,12 +150,15 @@ $( document ).ready(function() {
 		if (zoomButton_firstClick === true) {
 			zoomButton_firstClick = false;
 			designCanvas.addClass('design-canvas-zoom-out design-canvas-zoom-in');
+			editToolsWrapper.addClass('canvas-edit-tools-close canvas-edit-tools-open');
 		} else {
 			designCanvas.toggleClass('design-canvas-zoom-in');		
+			editToolsWrapper.toggleClass('canvas-edit-tools-open');
 		}
 
 		// will not allow user to access image-bin
 		modalLayer.toggle();
+		//editToolsWrapper.toggle();
 
 
 		
