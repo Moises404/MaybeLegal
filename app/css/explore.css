@@ -1,0 +1,50 @@
+/* EXPLORE CSS */
+
+.about-section {
+
+}
+
+/* SLOGANS */
+	.explore-slogan-page-wrapper {
+		position: absolute;
+		float: left;
+		width: 100%;
+		height: 100%;
+		z-index: 10;
+		background-color: white;
+	}
+	.explore-slogan-info-wrapper {
+		position: relative;
+		width: 80%;
+		/*height: 300px;*/
+		top: 50%;
+		margin: 0 auto;
+		margin-top: -10%;
+		text-align: center;
+		font-size: 2.5em;
+		font-family: 'FuturaStdBold', sans-serif;
+		/*background-color: yellow;*/
+	}
+	.explore-section-slogan {	
+	}
+	.slogan-1 {
+		display: none;
+	}
+	.slogan-2 {
+		display: none;
+	}
+	.slogan-3 {
+		display: none;
+	}
+/* IMAGES */
+
+	.explore-images {
+		position: relative;
+		width: 100%;
+		float: left;
+		z-index: 5;
+	}
+	.explore-image-splash {
+		/*width: 100%;*/
+		/*height: 100%;*/
+	}
