@@ -907,10 +907,10 @@ $( document ).ready(function() {
 	
 						var clicked_spriteImage = $(this).css('background-image').toString();
 						//var parsed_clicked_spriteImage = clicked_spriteImage.substr(125).substr(0, clicked_spriteImage.length-126);
-						var parsed_clicked_spriteImage = clicked_spriteImage.substr(125).substr(10, clicked_spriteImage.length-126);
+						var parsed_clicked_spriteImage = clicked_spriteImage.slice(134, clicked_spriteImage.length - 1);
 
 							console.log(clicked_spriteImage);
-							console.log(clicked_spriteImage.substr(0, 4));
+							console.log(clicked_spriteImage.slice(134, clicked_spriteImage.length - 1));
 							console.log('dsd');	
 						
 						var design_canvas_dataPath = 'assets/imageBin/completed_designs/';
