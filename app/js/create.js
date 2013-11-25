@@ -924,7 +924,7 @@ $( document ).ready(function() {
 						console.log('clicked_mode: product-mode');
 						
 						var clicked_spriteImage = $(this).css('background-image').toString();				
-						var parsed_clicked_spriteImage = clicked_spriteImage.slice(85, clicked_spriteImage.length - 1);				
+						var parsed_clicked_spriteImage = clicked_spriteImage.slice(110, clicked_spriteImage.length - 1);				
 
 							console.log(parsed_clicked_spriteImage);
 							console.log('HELLLLLO');
