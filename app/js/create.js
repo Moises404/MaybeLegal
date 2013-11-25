@@ -913,7 +913,7 @@ $( document ).ready(function() {
 
 							console.log(clicked_spriteImage);
 							console.log(clicked_spriteImage.slice(85, clicked_spriteImage.length - 1));
-							console.log('dsd+++dfg');	
+							console.log('sdfsdgfsdfg');	
 						
 						var design_canvas_dataPath = 'assets/imageBin/completed_designs/';
 						design_layer_1.css({'background-image': 'url("' + design_canvas_dataPath + parsed_clicked_spriteImage + '")'});
