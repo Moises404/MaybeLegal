@@ -909,11 +909,11 @@ $( document ).ready(function() {
 						var length = clicked_spriteImage.length;
 						console.log(length);
 						//var parsed_clicked_spriteImage = clicked_spriteImage.substr(125).substr(0, clicked_spriteImage.length-126);
-						var parsed_clicked_spriteImage = clicked_spriteImage.slice(100, clicked_spriteImage.length - 1);
+						var parsed_clicked_spriteImage = clicked_spriteImage.slice(85, clicked_spriteImage.length - 1);
 
 							console.log(clicked_spriteImage);
 							console.log(clicked_spriteImage.slice(85, clicked_spriteImage.length - 1));
-							console.log('sdfsdgfsdfg');	
+							console.log('okokokoko');	
 						
 						var design_canvas_dataPath = 'assets/imageBin/completed_designs/';
 						design_layer_1.css({'background-image': 'url("' + design_canvas_dataPath + parsed_clicked_spriteImage + '")'});
