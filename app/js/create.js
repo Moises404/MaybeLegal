@@ -913,7 +913,6 @@ $( document ).ready(function() {
 
 							console.log(clicked_spriteImage);
 							console.log(clicked_spriteImage.slice(85, clicked_spriteImage.length - 1));
-							console.log('okokokoko');	
 						
 						var design_canvas_dataPath = 'assets/imageBin/completed_designs/';
 						design_layer_1.css({'background-image': 'url("' + design_canvas_dataPath + parsed_clicked_spriteImage + '")'});
@@ -924,9 +923,8 @@ $( document ).ready(function() {
 					case 'product-mode':
 						console.log('clicked_mode: product-mode');
 						
-						var clicked_spriteImage = $(this).css('background-image').toString();
-						//var parsed_clicked_spriteImage = clicked_spriteImage.substr(150).substr(0, clicked_spriteImage.length-155);				
-						var parsed_clicked_spriteImage = clicked_spriteImage.substr(159).substr(0, clicked_spriteImage.length-164);				
+						var clicked_spriteImage = $(this).css('background-image').toString();				
+						var parsed_clicked_spriteImage = clicked_spriteImage.slice(85, clicked_spriteImage.length - 1);				
 
 							console.log(parsed_clicked_spriteImage);
 
