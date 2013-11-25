@@ -907,7 +907,7 @@ $( document ).ready(function() {
 	
 						var clicked_spriteImage = $(this).css('background-image').toString();
 						//var parsed_clicked_spriteImage = clicked_spriteImage.substr(125).substr(0, clicked_spriteImage.length-126);
-						var parsed_clicked_spriteImage = clicked_spriteImage.substr(125).substr(0, clicked_spriteImage.length-130);
+						var parsed_clicked_spriteImage = clicked_spriteImage.substr(125).substr(0, clicked_spriteImage.length-126);
 
 							console.log(clicked_spriteImage);
 							console.log(parsed_clicked_spriteImage);	
