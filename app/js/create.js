@@ -258,74 +258,124 @@ $( document ).ready(function() {
 		"assets/imageBin/completed_designs/JPEG/TrollFakey.png"
 	];
 
+	// Head Sprites
 	var imageArray1 = [
-		"assets/imageBin/logos_SVG/Action_Man.svg",
-		"assets/imageBin/logos_SVG/Adalilar_Kuruyemis.svg",
-		"assets/imageBin/logos_SVG/Adidas1007.svg",
-		"assets/imageBin/logos_SVG/Adrenalin_Power_Energy_Drink.svg",
-		"assets/imageBin/logos_SVG/Agroziv_Pancevo.svg",
-		"assets/imageBin/logos_SVG/Agua_Sol.svg",
-		"assets/imageBin/logos_SVG/Agua_Xallapan.svg",
-		"assets/imageBin/logos_SVG/Ahla_Israel.svg",
-		"assets/imageBin/logos_SVG/Air_India_Football_Club_de_Mumbai.svg",
-		"assets/imageBin/logos_SVG/Alibaba_com.svg",
-		"assets/imageBin/logos_SVG/Ambrozijntje.svg",
-		"assets/imageBin/logos_SVG/Android.svg",
+		"assets/imageBin/character/head/head_sprites/bamBam_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/bart_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/elmo_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/finn_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/fox_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/fred_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/goku_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/goofy_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/helloKitty_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/iceKing_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/link_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/marvin_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/mickey_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/mordecai_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/pikachu_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/samuraiJack_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/scoobyDoo_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/spaceGhost_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/spongeBob_head_sprite.png",
+		"assets/imageBin/character/head/head_sprites/yogiBear_head_sprite.png"
 	];
-
+	
+	// Body Sprites
 	var imageArray2 = [
-		"assets/imageBin/logos_SVG/Apple285.svg",
-		"assets/imageBin/logos_SVG/Aquafina.svg",
-		"assets/imageBin/logos_SVG/Aquaver.svg",
-		"assets/imageBin/logos_SVG/Arby_s_Oven_Mitt.svg",
-		"assets/imageBin/logos_SVG/Arco.svg",
-		"assets/imageBin/logos_SVG/Arla_Foods_UK.svg",
-		"assets/imageBin/logos_SVG/Artigiani_Della_Bufala.svg",
-		"assets/imageBin/logos_SVG/Atlanta_Bread_Company.svg",
-		"assets/imageBin/logos_SVG/Atlanta_Falcons168.svg",
-		"assets/imageBin/logos_SVG/Audi262.svg",
+		"assets/imageBin/character/body/body_sprites/bamBam_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/bart_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/domo_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/elmo_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/felixthecat_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/finn_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/fox_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/fred_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/goku_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/goofy_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/helloKitty_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/iceKing_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/link_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/mario_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/marvin_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/mickey_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/mordecai_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/pikachu_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/samuraiJack_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/scoobyDoo_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/spaceGhost_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/spongeBob_body_sprite.png",
+		"assets/imageBin/character/body/body_sprites/yogiBear_body_sprite.png"
 	];
-
+	
+	// Eye Sprites
 	var imageArray3 = [
-		"assets/imageBin/logos_SVG/Audi265.svg",
-		"assets/imageBin/logos_SVG/Autogrill_Spa.svg",
-		"assets/imageBin/logos_SVG/Avela_Cafe.svg",
-		"assets/imageBin/logos_SVG/Azienda_Agricola_Romano.svg",
-		"assets/imageBin/logos_SVG/BAKED_CHEETOS.svg",
-		"assets/imageBin/logos_SVG/BP.svg",
-		"assets/imageBin/logos_SVG/BUDWEISER_oahsp.svg",
-		"assets/imageBin/logos_SVG/Backyard_Burgers.svg",
-		"assets/imageBin/logos_SVG/Baeksul(1).svg",
-		"assets/imageBin/logos_SVG/Baked.svg",
+		"assets/imageBin/character/eye/eye_sprites/bamBam_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/bart_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/domo_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/elmo_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/fox_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/fred_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/goku_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/goofy_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/helloKitty_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/iceKing_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/link_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/mario_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/marvin_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/mickey_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/mordocai_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/pikachu_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/samuraiJack_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/scoobyDoo_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/spaceGhost_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/spongeBob_eye_sprite.png",
+		"assets/imageBin/character/eye/eye_sprites/yogiBear_eye_sprite.png"
 	];
-
+	
+	// Mouth Sprites
 	var imageArray4 = [
-		"assets/imageBin/logos_SVG/Bakers__and__Chefs.svg",
-		"assets/imageBin/logos_SVG/Bakie_s_Bakery.svg",
-		"assets/imageBin/logos_SVG/Balaio_de_Lenha.svg",
-		"assets/imageBin/logos_SVG/Bama.svg",
-		"assets/imageBin/logos_SVG/Banco_do_Brasil.svg",
-		"assets/imageBin/logos_SVG/Banvit.svg",
-		"assets/imageBin/logos_SVG/Bao_Dimais.svg",
-		"assets/imageBin/logos_SVG/Baraka(1).svg",
-		"assets/imageBin/logos_SVG/Baraka.svg",
-		"assets/imageBin/logos_SVG/Barilla.svg",
+		"assets/imageBin/character/mouth/mouth_sprites/bamBam_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/domo_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/elmo_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/fin_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/fred_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/goku_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/goofy_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/iceKing_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/link_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/mickey_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/mordecai_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/pikachu_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/samuraiJack_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/scoobyDoo_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/spaceGhost_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/spongeBob_mouth_sprite.png",
+		"assets/imageBin/character/mouth/mouth_sprites/yogiBear_mouth_sprite.png"
 	];
 
+	
+	// Nose Sprites
 	var imageArray5 = [
-		"assets/imageBin/logos_SVG/Barraca_Arabe.svg",
-		"assets/imageBin/logos_SVG/Beermates.svg",
-		"assets/imageBin/logos_SVG/Best_Buy.svg",
-		"assets/imageBin/logos_SVG/Birds_Eye(1).svg",
-		"assets/imageBin/logos_SVG/Bireley_s.svg",
-		"assets/imageBin/logos_SVG/Bob_s.svg",
-		"assets/imageBin/logos_SVG/Bob_s_Big_Boy.svg",
-		"assets/imageBin/logos_SVG/Book_It_(1).svg",
-		"assets/imageBin/logos_SVG/Borden.svg",
-		"assets/imageBin/logos_SVG/Browning275.svg",
-		"assets/imageBin/logos_SVG/Bulgarian_Eco_Food.svg",
-		"assets/imageBin/logos_SVG/Bull_Basketball_Schools.svg",
+		"assets/imageBin/character/nose/nose_sprites/bamBam_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/bart_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/elmo_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/fox_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/fred_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/goku_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/goofy_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/helloKitty_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/iceKing_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/link_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/mario_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/mickey_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/pikachu_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/samuraiJack_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/scoobyDoo_nose_sprite.png",
+		"assets/imageBin/character/nose/nose_sprites/yogiBear_nose_sprite.png"
 	];
+
 
 	var imageArray6 = [
 		"assets/imageBin/logos_SVG/Burger_King.svg",
@@ -344,76 +394,75 @@ $( document ).ready(function() {
 	];
 
 	var imageArray7 = [
-		"assets/imageBin/animal/animal_svg/mozilla-firefox-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/mgm-grand-black-vector.svg",
-		"assets/imageBin/animal/animal_svg/mortal-kombat-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/playboy-magazine-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/Metro_Goldwyn_Mayer.svg",
-		"assets/imageBin/animal/animal_svg/Jagermeister [Converted].svg",
-		"assets/imageBin/animal/animal_svg/Penguin_Group.svg",
-		"assets/imageBin/animal/animal_svg/Greyhound_Bus_Lines.svg",
-		"assets/imageBin/animal/animal_svg/ING_Direct.svg",
-		"assets/imageBin/animal/animal_svg/Democratic_Party.svg",
-		"assets/imageBin/animal/animal_svg/MTV2.eps.svg",
-		"assets/imageBin/animal/animal_svg/Emporio_Armani [Converted].eps.svg",
-		"assets/imageBin/animal/animal_svg/msn---microsoft-network-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/la-vie-du-cote-bon-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/hooters-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/ferrari-emblem-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/fox-moto-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/ecko-unltd-(.eps)-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/crocs-shoes-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/new-twitter-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/chicago-bulls-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/barclays.svg",
-		"assets/imageBin/animal/animal_svg/english-premier-league-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/John_Deere.svg",
-		"assets/imageBin/animal/animal_svg/dodge_1993.svg",
-		"assets/imageBin/animal/animal_svg/Mustang.svg",
-		"assets/imageBin/animal/animal_svg/Lacoste.eps.svg",
-		"assets/imageBin/animal/animal_svg/Peugeot.svg",
-		"assets/imageBin/animal/animal_svg/logo-lamborghini-3d.svg",
-		"assets/imageBin/animal/animal_svg/Merrill_Lynch.eps.svg",
-		"assets/imageBin/animal/animal_svg/Le_Coq_Sportif [Converted].eps.svg",
-		"assets/imageBin/animal/animal_svg/Dove.svg",
-		"assets/imageBin/animal/animal_svg/miami-dolphins-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/evernote-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/linux-penguin-logo.svg",
-		"assets/imageBin/animal/animal_svg/polar-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/POLO_-_RALPH_LAUREN.eps.svg",
-		"assets/imageBin/animal/animal_svg/porsche-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/puma-se--eps--vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/qantas_brandmark_vertical_c.svg",
-		"assets/imageBin/animal/animal_svg/RCA.eps.svg",
-		"assets/imageBin/animal/animal_svg/red_bull_eps [Converted].eps.svg",
-		"assets/imageBin/animal/animal_svg/Republican_correct.svg",
-		"assets/imageBin/animal/animal_svg/saab-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/Sea_World.eps.svg",
-		"assets/imageBin/animal/animal_svg/Sirius.eps.svg",
-		"assets/imageBin/animal/animal_svg/spiderman-3-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/swarovski-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/tecate-black-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/thundercats-emblem-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/united-states-postal-service-usps-logo.eps.svg",
-		"assets/imageBin/animal/animal_svg/world-wildlife-fund--eps--vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/zynga-logo.eps.svg",
-		"assets/imageBin/animal/animal_svg/Burberry.svg",
-		"assets/imageBin/animal/animal_svg/buffalo-wild-wings-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/buffalo-bills-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/browning-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/bronco-de-denver-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/batman-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/bass-pro-shops-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/bacardi-mojito-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/baby-phat-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/b.a.s.s_animal.svg",
-		"assets/imageBin/animal/animal_svg/anheuser-busch-logo-vector.svg",
-		"assets/imageBin/animal/animal_svg/american-eagle-outfitters-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/American_Airlines.eps.svg",
-		"assets/imageBin/animal/animal_svg/Alfa_Romeo.svg",
-		"assets/imageBin/animal/animal_svg/aflac-vector-logo.svg",
-		"assets/imageBin/animal/animal_svg/Abercrombie_and_Fitch.svg",
-		"assets/imageBin/animal/animal_svg/a-bathing-ape-vector-logo.svg"
+		"assets/imageBin/animal/animal_sprites/a-bathing-ape-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/Abercrombie_and_Fitch.png",
+		"assets/imageBin/animal/animal_sprites/aflac-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/Alfa_Romeo.png",
+		"assets/imageBin/animal/animal_sprites/american-eagle-outfitters-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/American_Airlines.png",
+		"assets/imageBin/animal/animal_sprites/anheuser-busch-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/b.a.s.s_animal.png",
+		"assets/imageBin/animal/animal_sprites/baby-phat-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/bacardi-mojito-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/barclays.png",
+		"assets/imageBin/animal/animal_sprites/bass-pro-shops-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/batman-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/bronco-de-denver-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/browning-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/buffalo-bills-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/buffalo-wild-wings-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/Burberry.png",
+		"assets/imageBin/animal/animal_sprites/chicago-bulls-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/crocs-shoes-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/Democratic_Party.png",
+		"assets/imageBin/animal/animal_sprites/dodge_1993.png",
+		"assets/imageBin/animal/animal_sprites/Dove.png",
+		"assets/imageBin/animal/animal_sprites/ecko-unltd-(.eps)-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/Emporio_Armani-[Converted].png",
+		"assets/imageBin/animal/animal_sprites/english-premier-league-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/evernote-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/ferrari-emblem-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/fox-moto-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/Greyhound_Bus_Lines.png",
+		"assets/imageBin/animal/animal_sprites/hooters-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/ING_Direct.png",
+		"assets/imageBin/animal/animal_sprites/Jagermeister-[Converted].png",
+		"assets/imageBin/animal/animal_sprites/John_Deere.png",
+		"assets/imageBin/animal/animal_sprites/la-vie-du-cote-bon-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/Lacoste.png",
+		"assets/imageBin/animal/animal_sprites/Le_Coq_Sportif-[Converted].png",
+		"assets/imageBin/animal/animal_sprites/linux-penguin-logo.png",
+		"assets/imageBin/animal/animal_sprites/logo-lamborghini-3d.png",
+		"assets/imageBin/animal/animal_sprites/Metro_Goldwyn_Mayer.png",
+		"assets/imageBin/animal/animal_sprites/mgm-grand-black-vector.png",
+		"assets/imageBin/animal/animal_sprites/miami-dolphins-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/mortal-kombat-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/mozilla-firefox-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/msn---microsoft-network-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/MTV2.png",
+		"assets/imageBin/animal/animal_sprites/Mustang.png",
+		"assets/imageBin/animal/animal_sprites/new-twitter-logo-vector.png",
+		"assets/imageBin/animal/animal_sprites/Penguin_Group.png",
+		"assets/imageBin/animal/animal_sprites/Peugeot.png",
+		"assets/imageBin/animal/animal_sprites/playboy-magazine-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/polar-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/POLO_-_RALPH_LAUREN.png",
+		"assets/imageBin/animal/animal_sprites/porsche-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/puma-se--eps--vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/qantas_brandmark_vertical_c.png",
+		"assets/imageBin/animal/animal_sprites/RCA.png",
+		"assets/imageBin/animal/animal_sprites/red_bull_eps-[Converted].png",
+		"assets/imageBin/animal/animal_sprites/Republican_correct.png",
+		"assets/imageBin/animal/animal_sprites/saab-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/Sea_World.png",
+		"assets/imageBin/animal/animal_sprites/Sirius.png",
+		"assets/imageBin/animal/animal_sprites/spiderman-3-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/swarovski-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/tecate-black-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/thundercats-emblem-vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/united-states-postal-service-usps-logo.png",
+		"assets/imageBin/animal/animal_sprites/world-wildlife-fund--eps--vector-logo.png",
+		"assets/imageBin/animal/animal_sprites/zynga-logo.png"
 	];
 
 	var imageArray8 = [
@@ -485,21 +534,20 @@ $( document ).ready(function() {
 	];
 
 	var imageArray9 = [
-		"assets/imageBin/technology/technology_svg/Microsoft_Windows_XP [Converted].eps.svg",
-		"assets/imageBin/technology/technology_svg/America_Online [Converted].svg",
-		"assets/imageBin/technology/technology_svg/Mac_OS.svg",
-		"assets/imageBin/technology/technology_svg/Wikipedia.svg",
-		"assets/imageBin/technology/technology_svg/radioshack-logo-vector.svg",
-		"assets/imageBin/technology/technology_svg/EA_Sports.svg",
-		"assets/imageBin/technology/technology_svg/amtrak-vector-logo.svg",
-		"assets/imageBin/technology/technology_svg/Internet_Explorer_4.svg",
-		"assets/imageBin/technology/technology_svg/kickstarter-logo-vector.svg",
-		"assets/imageBin/technology/technology_svg/Opera_O.svg",
-		"assets/imageBin/technology/technology_svg/PlayStation.svg",
-		"assets/imageBin/technology/technology_svg/thumbsupfacebooklikesymbol.svg",
-		"assets/imageBin/technology/technology_svg/WiFi.svg",
-		"assets/imageBin/technology/technology_svg/Android.svg",
-		"assets/imageBin/technology/technology_svg/DVD_Video_Audio.svg"
+		"assets/imageBin/technology/technology_sprites/Microsoft_Windows_XP [Converted].eps.png",
+		"assets/imageBin/technology/technology_sprites/America_Online [Converted].png",
+		"assets/imageBin/technology/technology_sprites/Mac_OS.png",
+		"assets/imageBin/technology/technology_sprites/radioshack-logo-vector.png",
+		"assets/imageBin/technology/technology_sprites/EA_Sports.png",
+		"assets/imageBin/technology/technology_sprites/amtrak-vector-logo.png",
+		"assets/imageBin/technology/technology_sprites/Internet_Explorer_4.png",
+		"assets/imageBin/technology/technology_sprites/kickstarter-logo-vector.png",
+		"assets/imageBin/technology/technology_sprites/Opera_O.png",
+		"assets/imageBin/technology/technology_sprites/PlayStation.png",
+		"assets/imageBin/technology/technology_sprites/thumbsupfacebooklikesymbol.png",
+		"assets/imageBin/technology/technology_sprites/WiFi.png",
+		"assets/imageBin/technology/technology_sprites/Android.png",
+		"assets/imageBin/technology/technology_sprites/DVD_Video_Audio.png"
 	];
 
 
@@ -858,11 +906,14 @@ $( document ).ready(function() {
 					case 'design-mode':
 	
 						var clicked_spriteImage = $(this).css('background-image').toString();
-						var parsed_clicked_spriteImage = clicked_spriteImage.substr(136).substr(0, clicked_spriteImage.length-137);
+						//var parsed_clicked_spriteImage = clicked_spriteImage.substr(125).substr(0, clicked_spriteImage.length-126);
+						var parsed_clicked_spriteImage = clicked_spriteImage.substr(134).substr(0, clicked_spriteImage.length-135);
+
 							console.log(parsed_clicked_spriteImage);	
 						
 						var design_canvas_dataPath = 'assets/imageBin/completed_designs/';
 						design_layer_1.css({'background-image': 'url("' + design_canvas_dataPath + parsed_clicked_spriteImage + '")'});
+						//design_layer_1.draggable();
 
 						console.log('clicked_mode: design-mode');
 						break;
@@ -870,7 +921,9 @@ $( document ).ready(function() {
 						console.log('clicked_mode: product-mode');
 						
 						var clicked_spriteImage = $(this).css('background-image').toString();
-						var parsed_clicked_spriteImage = clicked_spriteImage.substr(161).substr(0, clicked_spriteImage.length-166);				
+						//var parsed_clicked_spriteImage = clicked_spriteImage.substr(150).substr(0, clicked_spriteImage.length-155);				
+						var parsed_clicked_spriteImage = clicked_spriteImage.substr(159).substr(0, clicked_spriteImage.length-164);				
+
 							console.log(parsed_clicked_spriteImage);
 
 						var design_canvas_dataPath = 'assets/imageBin/products/product_templates/product_template_objects/';
@@ -924,6 +977,7 @@ $( document ).ready(function() {
 		var productButton = $('.canvas-product-button');
 		var completeButton = $('.canvas-complete-button');
 		var zoomButton = $('.canvas-zoom-button');
+		var marqueeResizeButton = $('.canvas-marquee-resize-button');
 			
 			// checks logic for zoom animation
 				var zoomButtonMousedown = false;
@@ -932,6 +986,9 @@ $( document ).ready(function() {
 
 			// checks logic for settings animation
 				var settingsButton_firstClick = true;
+
+			// checks logic for marquee-resize animation
+			var marquee_clickState = false;
 
 		// initialize canvas-ui edit-button variables
 		var editToolsWrapper = $('.canvas-edit-tools');
@@ -1007,6 +1064,10 @@ $( document ).ready(function() {
 
 		completeButton.click( function() {
 			completeButton_click();	
+		});
+
+		marqueeResizeButton.click( function() {
+			marqueeResizeButton_click();
 		});
 
 		// create mode click event functions
@@ -1088,6 +1149,27 @@ $( document ).ready(function() {
 				productBin.fadeOut();
 				completeMode.fadeIn();
 				modalLayer.fadeIn();
+		}
+
+		function marqueeResizeButton_click() {
+			console.log('marquee-resize-button click');
+			var all_designLayer_generators = $('.design-layer-generator');
+			var all_background_image_styling = $('.background-image-styling');
+
+			if (marquee_clickState === true) {
+				marquee_clickState = false;
+
+				all_designLayer_generators.css({'border':'none'});
+				all_background_image_styling.css({'border':'none'});
+
+			} else if (marquee_clickState === false) {
+				marquee_clickState = true;
+
+				all_designLayer_generators.css({'border':'1px dashed black'});
+				all_background_image_styling.css({'border':'1px dashed black'});
+
+			}
+
 		}
 
 		var complete_options_modalView = $('.complete-mode-page-wrapper');
@@ -1521,6 +1603,7 @@ $( document ).ready(function() {
 					'elmo',
 					'finn',
 					'fred',
+					'fox',
 					'goku',
 					'goofy',
 					'helloKitty',
@@ -1534,7 +1617,6 @@ $( document ).ready(function() {
 					'scoobyDoo',
 					'spaceGhost',
 					'spongeBob',
-					'fox',
 					'yogiBear'
 				];
 
@@ -1677,20 +1759,32 @@ $( document ).ready(function() {
 			
 			//character
 				var characterName = characterNameArray[Math.floor(Math.random()* characterNameArray.length)];
-				var characterName_Head = characterNameArray[Math.floor(Math.random()* characterNameArray.length)];
 
-					var eye_image = eyeArray[Math.floor(Math.random()* eyeArray.length)];
 					var head_image = headArray[Math.floor(Math.random()* headArray.length)];
+					var eye_image = eyeArray[Math.floor(Math.random()* eyeArray.length)];
 					var accessory_image = accessoryArray[Math.floor(Math.random()* 1)];
-					var mouth_image = mouthArray[Math.floor(Math.random()* 8)];
-					var nose_image = noseArray[Math.floor(Math.random()* 6)];
-					var body_image = bodyArray[Math.floor(Math.random()* 8)];
+					var mouth_image = mouthArray[Math.floor(Math.random()* mouthArray.length)];
+					var nose_image = noseArray[Math.floor(Math.random()* noseArray.length)];
+					var body_image = bodyArray[Math.floor(Math.random()* bodyArray.length)];
 					//logo
 						//var logo_image = logoArray[Math.floor(Math.random()* 10)];
 					//background
 						//var background_image = backgroundArray[Math.floor(Math.random()* 3)];
 
-				console.log(characterName);
+
+				// used to traverse the character object literal
+				// for positioning that character body part 
+				var parsed_head_image = head_image.substr(31).substr(0, head_image.length-40);
+				var parsed_eye_image = eye_image.substr(30).substr(0, eye_image.length-38);
+				var parsed_accessory_image = accessory_image.substr(31).substr(0, accessory_image.length-40);
+				var parsed_mouth_image = mouth_image.substr(32).substr(0, mouth_image.length-42);
+				var parsed_nose_image = nose_image.substr(31).substr(0, nose_image.length-40);
+
+					console.log('parsed_head_image: ' + parsed_head_image);
+					//console.log('parsed_eye_image: ' + parsed_eye_image);
+					//console.log('parsed_accessory_image: ' + parsed_accessory_image);
+					//console.log('parsed_mouth_image: ' + parsed_mouth_image);
+					//console.log('parsed_nose_image: ' + parsed_nose_image);
 
 	//Select the image templates from the dom tree
 	// and replace with random assets
@@ -1698,6 +1792,12 @@ $( document ).ready(function() {
 			// append body
 			var layer1 = $(".design-layer-2");
 			layer1.css({
+				// 'background-image': 'url("' + character_OBJ.domo.body.url + '")',
+				// 'width' : character_OBJ.domo.body.width,
+				// 'height': character_OBJ.domo.body.height,
+				// 'left': character_OBJ.domo.body.left,
+				// 'top': character_OBJ.domo.body.top
+
 				'background-image': 'url("' + character_OBJ[characterName].body.url + '")',
 				'width' : character_OBJ[characterName].body.width,
 				'height': character_OBJ[characterName].body.height,
@@ -1709,45 +1809,45 @@ $( document ).ready(function() {
 			var layer2 = $(".design-layer-3");
 				layer2.css({
 					'background-image': 'url("' + head_image + '")',
-					'width': character_OBJ[characterName].head.width + 'px',
-					'height': character_OBJ[characterName].head.height + 'px',
-					'left': character_OBJ[characterName].head.left + 'px',
-					'top': character_OBJ[characterName].head.top + 'px'
+					'width': character_OBJ[characterName].head[parsed_head_image].width + 'px',
+					'height': character_OBJ[characterName].head[parsed_head_image].height + 'px',
+					'left': character_OBJ[characterName].head[parsed_head_image].left + 'px',
+					'top': character_OBJ[characterName].head[parsed_head_image].top + 'px'
 					//'top': character_OBJ[characterName].head.top + 'px',
 
 				});
 
-			// // append eye
-			// var layer3 = $(".design-layer-4");
-			// layer3.css({
-			// 	'background-image': 'url("' + eye_image + '")',
-			// 	'width' : character_OBJ[characterName].eye.width,
-			// 	'height': character_OBJ[characterName].eye.height,
-			// 	'margin-left': character_OBJ[characterName].eye.margin_left,
-			// 	'margin-top': character_OBJ[characterName].eye.margin_top 
-			// });
+			// append eye
+			var layer3 = $(".design-layer-4");
+			layer3.css({
+				'background-image': 'url("' + eye_image + '")',
+				'width' : character_OBJ[characterName].eye.width,
+				'height': character_OBJ[characterName].eye.height,
+				'left': character_OBJ[characterName].eye.left,
+				'top': character_OBJ[characterName].eye.top 
+			});
 
 
 			// // append mouth
-			// var layer4 = $(".design-layer-5");
-			// layer4.css({
-			// 	'background-image': 'url("' + mouth_image + '")',
-			// 	'width' : character_OBJ[characterName].mouth.width,
-			// 	'height': character_OBJ[characterName].mouth.height,
-			// 	'margin-left': character_OBJ[characterName].mouth.margin_left,
-			// 	'margin-top': character_OBJ[characterName].mouth.margin_top 
-			// });
+			var layer4 = $(".design-layer-5");
+			layer4.css({
+				'background-image': 'url("' + mouth_image + '")',
+				'width' : character_OBJ[characterName].mouth.width,
+				'height': character_OBJ[characterName].mouth.height,
+				'left': character_OBJ[characterName].mouth.left,
+				'top': character_OBJ[characterName].mouth.top 
+			});
 
 
 			// // append nose
-			// var layer5 = $(".design-layer-6");
-			// layer5.css({
-			// 	'background-image': 'url("' + nose_image + '")',
-			// 	'width' : character_OBJ[characterName].nose.width,
-			// 	'height': character_OBJ[characterName].nose.height,
-			// 	'margin-left': character_OBJ[characterName].nose.margin_left,
-			// 	'margin-top': character_OBJ[characterName].nose.margin_top
-			// });
+			var layer5 = $(".design-layer-6");
+			layer5.css({
+				'background-image': 'url("' + nose_image + '")',
+				'width' : character_OBJ[characterName].nose.width,
+				'height': character_OBJ[characterName].nose.height,
+				'left': character_OBJ[characterName].nose.left,
+				'top': character_OBJ[characterName].nose.top
+			});
 			
 			// // append accessory
 			// var layer6 = $('.design-layer-7');
@@ -1787,20 +1887,77 @@ $( document ).ready(function() {
 	//	CANVAS MOUSE EVENTS   //
 	////////////////////////////
 	
-	// $('.design-layer-3').draggable( function () {
-	// 	console.log('draggable');
-	// });
+		// PRODUCT BACKGROUND IMAGE DRAGGABLE
+			shirtImage = $('.design-layer-1');
+
+			var mousedown = 0;
+
+			// track cursor
+			var x, y;
+
+			var dragFunctionVar;
+
+		      shirtImage.mousedown(function() {
+		        console.log('mousedown');
+		        mousedown = 1;
+
+		        
+		          dragEvent();
+		        
+		          
+		      }).mouseup(function() {
+		        mousedown = 0;
+		        console.log('mouseup');
+		        dragFunctionVar.unbind('mousemove');
+		      }).on('mouseenter mouseleave', function(e) {
+		        var $that = $(this);
+		        /*if (e.type == 'mouseenter') {
+		          console.log('mouseenter');
+		        }*/
+		        if (e.type == 'mouseleave') {
+		          if (mousedown == 1) {
+		            console.log('mouseup');
+		            mousedown = 0;
+		            //console.log(mousedown);
+		            dragFunctionVar.unbind('mousemove');
+
+		          }
+		        }
+		      });
+
+		    function dragEvent() {
+
+		    	dragFunctionVar = $(document).mousemove(function(e){
+					x = e.pageX;
+					y = e.pageY;
+					
+					//console.log('x: ' + x + ' y: ' + y);
+					//console.log('x:' + e.pageX +', y: '+ e.pageY);
+
+					// google how to console log backgroundPosition
+					// X and Y separately
+					// shirtImage.css('backgroundPosition');
+
+					shirtImage.css({'backgroundPosition': (x - 150) + 'px ' + (y - 50) + 'px'})
+				});
+		    }
 	
 	$(".design-layer-2" ).click( function() {
 		console.log('click product-styling');	
 	});
 
-	var design = $('.design-layer-2');
+	// var design = $('.design-layer-2');
 
-	design.draggable();
-	design.resizable();
-	$(".design-layer-3" ).draggable();
-	$(".design-layer-3" ).resizable();
+	// design.draggable();
+	// design.resizable();
+	// $(".design-layer-3" ).draggable();
+	// $(".design-layer-3" ).resizable();
+
+	// $(".design-layer-4" ).draggable();
+	// $(".design-layer-4" ).resizable();
+
+	$('.background-image-styling').draggable();
+	$('.background-image-styling').resizable();
 
 
 	//console.log('hello');
@@ -1819,38 +1976,154 @@ $( document ).ready(function() {
 	 			body : 
 	 				{
 	 					url : 'assets/imageBin/character/body/bamBam_body.png',
-						width: 350,
-						height: 337,
-						left: 98,
-						top: 246
+						width: 323,
+						height: 313,
+						left: 121,
+						top: 269
 	 				},
 	 			head : 
 	 				{
-	 					width: 168,
-						height: 202,
-						left: 58,
-						top: -117
+	 					bamBam : {
+	 						width: 234,
+							height: 199,
+							left: 38,
+							top: -168
+	 					},
+						bart : {
+							width: 174,
+							height: 202,
+							left: 34,
+							top: -179
+						},
+						elmo : {
+							width: 227,
+							height: 167,
+							left: 13,
+							top: -127
+						},
+						finn : {
+							width: 134,
+							height: 121,
+							left: 58,
+							top: -100
+						},
+						fred : {
+							width: 165,
+							height: 204,
+							left: 47,
+							top: -140
+						},
+						fox : {
+							width: 168,
+							height: 194,
+							left: 40,
+							top: -165
+						},
+						goku : {
+							width: 303,
+							height: 243,
+							left: -37,
+							top: -203
+						},
+						goofy : {
+							width: 166,
+							height: 247,
+							left: 22,
+							top: -171
+						},
+						helloKitty : {
+							width: 255,
+							height: 175,
+							left: 5,
+							top: -151
+						},
+						iceKing : {
+							width: 199,
+							height: 381,
+							left: 32,
+							top: -138
+						},
+						link : {
+							width: 220,
+							height: 202,
+							left: -15,
+							top: -165
+						},
+						marvin : {
+							width: 168,
+							height: 227,
+							left: 47,
+							top: -203
+						},
+						mickey : {
+							width: 228,
+							height: 206,
+							left: 18,
+							top: -163
+						},
+						mordecai : {
+							width: 144,
+							height: 194,
+							left: 44,
+							top: -173
+						},
+						pikachu : {
+							width: 266,
+							height: 162,
+							left: -6,
+							top: -142
+						},
+						samuraiJack : {
+							width: 123,
+							height: 202,
+							left: 61,
+							top: -134
+						},
+						scoobyDoo : {
+							width: 100,
+							height: 202,
+							left: 68,
+							top: -173
+						},
+						spaceGhost : {
+							width: 130,
+							height: 177,
+							left: 46,
+							top: -130
+						},
+						spongeBob : {
+							width: 173,
+							height: 152,
+							left: 47,
+							top: -131
+						},
+						yogiBear : {
+							width: 168,
+							height: 173,
+							left: 35,
+							top: -142
+						}
 	 				},
 	 			eye : 
 	 				{
 						width: 80,
-	 					height: 80,
-	 					left: -80,
-	 					top: 0
+						height: 80,
+						left: 91,
+						top: -77
 	 				},
 	 			mouth : 
 	 				{
-						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						width: 50,
+						height: 31,
+						left: 110,
+						top: -7
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 34,
+						height: 20,
+						left: 114,
+						top: -35
 	 				}
 		    },
 	    bart : 
@@ -1860,38 +2133,154 @@ $( document ).ready(function() {
 	 			body : 
 	 				{
 	 					url : 'assets/imageBin/character/body/bart_body.png',	
-						width: 199,
-						height: 378,
-						left: 158,
-						top: 213
+						width: 173,
+						height: 329,
+						left: 193,
+						top: 277
 	 				},
 	 			head : 
 	 				{
-	 					width: 235,
-						height: 216,
-						left: -34,
-						top: -133
+	 					bamBam : {
+	 						width: 234,
+							height: 199,
+							left: 1,
+							top: -173
+	 					},
+						bart : {
+							width: 161,
+							height: 245,
+							left: -19,
+							top: -224
+						},
+						elmo : {
+							width: 227,
+							height: 167,
+							left: -33,
+							top: -134
+						},
+						finn : {
+							width: 134,
+							height: 121,
+							left: 17,
+							top: -97
+						},
+						fred : {
+							width: 135,
+							height: 164,
+							left: 9,
+							top: -115
+						},
+						fox : {
+							width: 168,
+							height: 194,
+							left: 1,
+							top: -166
+						},
+						goku : {
+							width: 303,
+							height: 243,
+							left: -74,
+							top: -200
+						},
+						goofy : {
+							width: 166,
+							height: 247,
+							left: -22,
+							top: -165
+						},
+						helloKitty : {
+							width: 255,
+							height: 175,
+							left: -42,
+							top: -153
+						},
+						iceKing : {
+							width: 188,
+							height: 395,
+							left: -42,
+							top: -124
+						},
+						link : {
+							width: 220,
+							height: 202,
+							left: -51,
+							top: -165
+						},
+						marvin : {
+							width: 193,
+							height: 257,
+							left: 0,
+							top: -224
+						},
+						mickey : {
+							width: 249,
+							height: 224,
+							left: -45,
+							top: -182
+						},
+						mordecai : {
+							width: 144,
+							height: 194,
+							left: 6,
+							top: -171
+						},
+						pikachu : {
+							width: 288,
+							height: 174,
+							left: -54,
+							top: -150
+						},
+						samuraiJack : {
+							width: 123,
+							height: 202,
+							left: 18,
+							top: -136
+						},
+						scoobyDoo : {
+							width: 87,
+							height: 202,
+							left: 40,
+							top: -155
+						},
+						spaceGhost : {
+							width: 99,
+							height: 177,
+							left: 19,
+							top: -105
+						},
+						spongeBob : {
+							width: 173,
+							height: 152,
+							left: 1,
+							top: -132
+						},
+						yogiBear : {
+							width: 151,
+							height: 156,
+							left: 1,
+							top: -126
+						}
 	 				},
 	 			eye : 
 	 				{
-						width: 100,
-	 					height: 80,
-	 					left: -70,
-	 					top: -40
+						width: 89,
+						height: 75,
+						left: 35,
+						top: -99
 	 				},
 	 			mouth : 
 	 				{
-						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						width: 92,
+						height: 65,
+						left: 37,
+						top: -41
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 43,
+						height: 49,
+						left: 59,
+						top: -71
 	 				}
 	    	},
 	    domo :
@@ -1903,15 +2292,131 @@ $( document ).ready(function() {
 	 					url : 'assets/imageBin/character/body/domo_body.png',
 						width: 415,
 						height: 400,
-						left: 40,
-						top: 186
+						left: 57,
+						top: 229
 	 				},
 	 			head : 
 	 				{
-	 					width: 200,
-						height: 200,
-						left: 116,
-						top: -44
+	 					bamBam : {
+							width: 392,
+							height: 337,
+							left: 72,
+							top: -137
+	 					},
+						bart : {
+							width: 142,
+							height: 219,
+							left: 126,
+							top: -199
+						},
+						elmo : {
+							width: 303,
+							height: 222,
+							left: 62,
+							top: -33
+						},
+						finn : {
+							width: 232,
+							height: 221,
+							left: 107,
+							top: -99
+						},
+						fred : {
+							width: 178,
+							height: 213,
+							left: 144,
+							top: -149
+						},
+						fox : {
+							width: 262,
+							height: 305,
+							left: 89,
+							top: -153
+						},
+						goku : {
+							width: 336,
+							height: 276,
+							left: 43,
+							top: -196
+						},
+						goofy : {
+							width: 207,
+							height: 315,
+							left: 88,
+							top: -171
+						},
+						helloKitty : {
+							width: 289,
+							height: 205,
+							left: 75,
+							top: -62
+						},
+						iceKing : {
+							width: 252,
+							height: 478,
+							left: 81,
+							top: -174
+						},
+						link : {
+							width: 337,
+							height: 311,
+							left: 16,
+							top: -175
+						},
+						marvin : {
+							width: 293,
+							height: 403,
+							left: 84,
+							top: -201
+						},
+						mickey : {
+							width: 329,
+							height: 293,
+							left: 57,
+							top: -173
+						},
+						mordecai : {
+							width: 253,
+							height: 341,
+							left: 87,
+							top: -192
+						},
+						pikachu : {
+							width: 442,
+							height: 275,
+							left: 5,
+							top: -136
+						},
+						samuraiJack : {
+							width: 155,
+							height: 263,
+							left: 140,
+							top: -151
+						},
+						scoobyDoo : {
+							width: 122,
+							height: 243,
+							left: 158,
+							top: -180
+						},
+						spaceGhost : {
+							width: 180,
+							height: 254,
+							left: 104,
+							top: -180
+						},
+						spongeBob : {
+							width: 299,
+							height: 262,
+							left: 72,
+							top: -108
+						},
+						yogiBear : {
+							width: 334,
+							height: 331,
+							left: 41,
+							top: -194
+						}
 	 				},
 	 			eye : 
 	 				{
@@ -1949,31 +2454,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 200,
-						height: 200,
-						left: 103,
-						top: 10
+	 					bamBam : {
+	 						width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+	 					},
+						bart : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						elmo : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						finn : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						fred : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						fox : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						goku : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						goofy : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						helloKitty : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						iceKing : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						link : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						marvin : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						mickey : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						mordecai : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						pikachu : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						samuraiJack : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						scoobyDoo : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						spaceGhost : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						spongeBob : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						},
+						yogiBear : {
+							width: 200,
+							height: 200,
+							left: 103,
+							top: 10
+						}
 	 				},
 	 			eye : 
 	 				{
 						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						height: 80,
+						left: 137,
+						top: 47
 	 				},
 	 			mouth : 
 	 				{
 						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						height: 80,
+						left: 142,
+						top: 109
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 48,
+						height: 46,
+						left: 163,
+						top: 76
 	 				}
 	    	},
 	    fox :
@@ -1990,31 +2611,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 200,
-						height: 200,
-						left: 15,
-						top: -105
+	 					bamBam : {
+	 						width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+	 					},
+						bart : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						elmo : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						finn : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						fred : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						fox : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						goku : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						goofy : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						helloKitty : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						iceKing : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						link : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						marvin : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						mickey : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						mordecai : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						pikachu : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						samuraiJack : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						scoobyDoo : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						spaceGhost : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						spongeBob : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						},
+						yogiBear : {
+							width: 200,
+							height: 200,
+							left: 15,
+							top: -105
+						}
 	 				},
 	 			eye : 
 	 				{
-						width: 100,
-	 					height: 80,
-	 					left: -80,
-	 					top: 0
+						width: 62,
+						height: 80,
+						left: 81,
+						top: -92
 	 				},
 	 			mouth : 
 	 				{
-						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						width: 73,
+						height: 43,
+						left: 74,
+						top: -29
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 47,
+						height: 34,
+						left: 83,
+						top: -49
 	 				}
 	    	},
 	    finn :
@@ -2024,38 +2761,154 @@ $( document ).ready(function() {
 	 			body : 
 	 				{
 	 					url : 'assets/imageBin/character/body/finn_body.png',
-						width: 349,
-						height: 456,
-						left: 106,
-						top: 166
+						width: 286,
+						height: 369,
+						left: 138,
+						top: 230
 	 				},
 	 			head : 
 	 				{
-	 					width: 262,
-						height: 250,
-						left: 45,
-						top: -133
+	 					bamBam : {
+	 						width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+	 					},
+						bart : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						elmo : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						finn : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						fred : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						fox : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						goku : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						goofy : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						helloKitty : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						iceKing : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						link : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						marvin : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						mickey : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						mordecai : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						pikachu : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						samuraiJack : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						scoobyDoo : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						spaceGhost : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						spongeBob : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						},
+						yogiBear : {
+							width: 182,
+							height: 205,
+							left: 25,
+							top: -167
+						}
 	 				},
 	 			eye : 
 	 				{
-						width: 100,
-	 					height: 80,
-	 					left: -30,
-	 					top: -50
+						width: 94,
+						height: 80,
+						left: 61,
+						top: -73.5
 	 				},
 	 			mouth : 
 	 				{
-						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						width: 59,
+						height: 57,
+						left: 76,
+						top: -24.5
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 35,
+						height: 46,
+						left: 80,
+						top: -48.5
 	 				}
 	    	},
 	    fred :
@@ -2072,31 +2925,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 209,
-						height: 232,
-						left: 78,
-						top: -154
+	 					bamBam : {
+	 						width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+	 					},
+						bart : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						elmo : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						finn : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						fred : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						fox : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						goku : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						goofy : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						helloKitty : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						iceKing : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						link : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						marvin : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						mickey : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						mordecai : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						pikachu : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						samuraiJack : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						scoobyDoo : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						spaceGhost : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						spongeBob : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						},
+						yogiBear : {
+							width: 209,
+							height: 232,
+							left: 78,
+							top: -154
+						}
 	 				},
 	 			eye : 
 	 				{
-						width: 80,
-	 					height: 80,
-	 					left: -80,
-	 					top: -70
+						width: 82,
+						height: 80,
+						left: 139,
+						top: -28
 	 				},
 	 			mouth : 
 	 				{
 						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						height: 80,
+						left: 121,
+						top: 3
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 41,
+						height: 46,
+						left: 154,
+						top: -3
 	 				}
 	    	},
 	    goku :
@@ -2113,32 +3082,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 159,
-						height: 140,
-						left: 31,
-						top: -69
-
+	 					bamBam : {
+	 						width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+	 					},
+						bart : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						elmo : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						finn : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						fred : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						fox : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						goku : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						goofy : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						helloKitty : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						iceKing : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						link : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						marvin : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						mickey : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						mordecai : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						pikachu : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						samuraiJack : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						scoobyDoo : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						spaceGhost : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						spongeBob : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						},
+						yogiBear : {
+							width: 150,
+							height: 132,
+							left: 38,
+							top: -68
+						}
 	 				},
 	 			eye : 
 	 				{
-						width: 100,
-	 					height: 80,
-	 					left: -50,
-	 					top: 60
+						width: 60,
+						height: 71,
+						left: 81.5,
+						top: -59
 	 				},
 	 			mouth : 
 	 				{
-						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						width: 44,
+						height: 35,
+						left: 89.5,
+						top: 2
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 24,
+						height: 24,
+						left: 102.5,
+						top: -7
 	 				}
 	    	},
 	    goofy :
@@ -2155,31 +3239,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 200,
-						height: 200,
-						left: 147,
-						top: -41
+	 					bamBam : {
+	 						width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+	 					},
+						bart : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						elmo : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						finn : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						fred : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						fox : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						goku : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						goofy : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						helloKitty : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						iceKing : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						link : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						marvin : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						mickey : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						mordecai : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						pikachu : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						samuraiJack : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						scoobyDoo : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						spaceGhost : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						spongeBob : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						},
+						yogiBear : {
+							width: 200,
+							height: 200,
+							left: 147,
+							top: -41
+						}
 	 				},
 	 			eye : 
 	 				{
-						width: 80,
-	 					height: 80,
-	 					left: -10,
-	 					top: -40
+						width: 63,
+						height: 63,
+						left: 216,
+						top: -14
 	 				},
 	 			mouth : 
 	 				{
-						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						width: 64,
+						height: 50,
+						left: 218,
+						top: 51
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 39,
+						height: 34,
+						left: 231,
+						top: 15
 	 				}
 	    	},
 	    helloKitty :
@@ -2196,31 +3396,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 292,
-						height: 270,
-						left: 48,
-						top: -102
+	 					bamBam : {
+	 						width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+	 					},
+						bart : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						elmo : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						finn : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						fred : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						fox : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						goku : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						goofy : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						helloKitty : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						iceKing : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						link : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						marvin : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						mickey : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						mordecai : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						pikachu : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						samuraiJack : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						scoobyDoo : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						spaceGhost : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						spongeBob : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						},
+						yogiBear : {
+							width: 292,
+							height: 270,
+							left: 48,
+							top: -102
+						}
 	 				},
 	 			eye : 
 	 				{
 						width: 100,
-	 					height: 80,
-	 					left: -50,
-	 					top: -60
+						height: 80,
+						left: 153.5,
+						top: -62
 	 				},
 	 			mouth : 
 	 				{
 						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						height: 80,
+						left: 143.5,
+						top: -5
 	 				},
 	 			nose : 
 	 				{
 	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+						height: 80,
+						left: 165.5,
+						top: -62
 	 				}
 	    	},
 	    iceKing :
@@ -2238,31 +3554,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 281,
-						height: 450,
-						left: 37,
-						top: -163
+	 					bamBam : {
+	 						width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+	 					},
+						bart : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						elmo : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						finn : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						fred : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						fox : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						goku : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						goofy : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						helloKitty : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						iceKing : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						link : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						marvin : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						mickey : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						mordecai : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						pikachu : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						samuraiJack : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						scoobyDoo : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						spaceGhost : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						spongeBob : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						},
+						yogiBear : {
+							width: 281,
+							height: 450,
+							left: 37,
+							top: -163
+						}
 	 				},
 	 			eye : 
 	 				{
 						width: 80,
-	 					height: 80,
-	 					left: -60,
-	 					top: -70
+						height: 80,
+						left: 131,
+						top: -77
 	 				},
 	 			mouth : 
 	 				{
 						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						height: 80,
+						left: 118,
+						top: 3
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 62,
+						height: 53,
+						left: 126,
+						top: -32
 	 				}
 	    	},
 	    link :
@@ -2279,31 +3711,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 188,
-						height: 194,
-						left: 161,
-						top: 111
+	 					bamBam : {
+	 						width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+	 					},
+						bart : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						elmo : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						finn : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						fred : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						fox : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						goku : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						goofy : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						helloKitty : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						iceKing : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						link : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						marvin : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						mickey : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						mordecai : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						pikachu : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						samuraiJack : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						scoobyDoo : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						spaceGhost : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						spongeBob : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						},
+						yogiBear : {
+							width: 188,
+							height: 194,
+							left: 161,
+							top: 111
+						}
 	 				},
 	 			eye : 
 	 				{
-	 					width: 100,
-	 					height: 80,
-	 					left: 10,
-	 					top: 0
+	 					width: 75,
+						height: 80,
+						left: 229.5,
+						top: 189
 	 				},
 	 			mouth : 
 	 				{
-						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						width: 78,
+						height: 67,
+						left: 227,
+						top: 238
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 43,
+						height: 50,
+						left: 247.5,
+						top: 209
 	 				}
 	    	},
 	    marvin :
@@ -2320,31 +3868,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 150,
-						height: 150,
-						left: 151,
-						top: -126
+	 					bamBam : {
+	 						width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+	 					},
+						bart : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						elmo : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						finn : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						fred : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						fox : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						goku : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						goofy : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						helloKitty : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						iceKing : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						link : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						marvin : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						mickey : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						mordecai : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						pikachu : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						samuraiJack : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						scoobyDoo : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						spaceGhost : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						spongeBob : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						},
+						yogiBear : {
+							width: 150,
+							height: 150,
+							left: 151,
+							top: -126
+						}
 	 				},
 	 			eye : 
 	 				{
-	 					width: 120,
-	 					height: 80,
-	 					left: -20,
-	 					top: 40
+	 					width: 62,
+						height: 63,
+						left: 168,
+						top: -73.5
 	 				},
 	 			mouth : 
 	 				{
-						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						width: 51,
+						height: 38,
+						left: 175,
+						top: -13.5
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 31,
+						height: 30,
+						left: 181,
+						top: -40.5
 	 				}
 	    	},
 	    mickey :
@@ -2361,31 +4025,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 211,
-						height: 200,
-						left: 107,
-						top: 40
+	 					bamBam : {
+	 						width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+	 					},
+						bart : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						elmo : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						finn : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						fred : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						fox : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						goku : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						goofy : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						helloKitty : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						iceKing : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						link : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						marvin : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						mickey : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						mordecai : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						pikachu : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						samuraiJack : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						scoobyDoo : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						spaceGhost : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						spongeBob : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						},
+						yogiBear : {
+							width: 211,
+							height: 200,
+							left: 107,
+							top: 40
+						}
 	 				},
 	 			eye : 
 	 				{
-	 					width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+	 					width: 86,
+						height: 80,
+						left: 193,
+						top: 106
 	 				},
 	 			mouth : 
 	 				{
-						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						width: 69,
+						height: 49,
+						left: 201,
+						top: 154
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 46,
+						height: 35,
+						left: 211,
+						top: 143
 	 				}
 	    	},
 	    mordecai :
@@ -2402,31 +4182,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 200,
-						height: 200,
-						left: -3,
-						top: -93
+	 					bamBam : {
+	 						width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+	 					},
+						bart : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						elmo : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						finn : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						fred : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						fox : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						goku : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						goofy : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						helloKitty : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						iceKing : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						link : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						marvin : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						mickey : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						mordecai : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						pikachu : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						samuraiJack : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						scoobyDoo : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						spaceGhost : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						spongeBob : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						},
+						yogiBear : {
+							width: 200,
+							height: 200,
+							left: -3,
+							top: -93
+						}
 	 				},
 	 			eye : 
 	 				{
-						width: 80,
-	 					height: 80,
-	 					left: -60,
-	 					top: -20
+						width: 75,
+						height: 59,
+						left: 30,
+						top: -67
 	 				},
 	 			mouth : 
 	 				{
-						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						width: 50,
+						height: 27,
+						left: 38,
+						top: -18
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 37,
+						height: 31,
+						left: 40,
+						top: -37
 	 				}
 	    	},
 	    pikachu :
@@ -2443,31 +4339,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 300,
-						height: 300,
-						left: 13,
-						top: -206
+	 					bamBam : {
+	 						width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+	 					},
+						bart : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						elmo : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						finn : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						fred : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						fox : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						goku : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						goofy : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						helloKitty : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						iceKing : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						link : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						marvin : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						mickey : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						mordecai : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						pikachu : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						samuraiJack : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						scoobyDoo : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						spaceGhost : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						spongeBob : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						},
+						yogiBear : {
+							width: 300,
+							height: 300,
+							left: 13,
+							top: -206
+						}
 	 				},
 	 			eye : 
 	 				{
 						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						height: 80,
+						left: 120,
+						top: -165
 	 				},
 	 			mouth : 
 	 				{
 						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						height: 80,
+						left: 118,
+						top: -62
 	 				},
 	 			nose : 
 	 				{
 	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+						height: 80,
+						left: 134.5,
+						top: -100
 	 				}
 	    	},
 	    samuraiJack :
@@ -2484,31 +4496,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 200,
-						height: 200,
-						left: 254,
-						top: -48,
+	 					bamBam : {
+	 						width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+	 					},
+						bart : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						elmo : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						finn : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						fred : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						fox : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						goku : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						goofy : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						helloKitty : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						iceKing : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						link : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						marvin : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						mickey : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						mordecai : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						pikachu : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						samuraiJack : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						scoobyDoo : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						spaceGhost : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						spongeBob : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						},
+						yogiBear : {
+							width: 200,
+							height: 200,
+							left: 254,
+							top: -48
+						}
 	 				},
 	 			eye : 
 	 				{
-						width: 100,
-	 					height: 80,
-	 					left: -70,
-	 					top: -20
+						width: 61,
+						height: 47,
+						left: 332,
+						top: -20.5
 	 				},
 	 			mouth : 
 	 				{
-						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						width: 70,
+						height: 42,
+						left: 327,
+						top: 5.5
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+						width: 43,
+						height: 41,
+						left: 340,
+						top: -9.5
 	 				}
 	    	},
 	    scoobyDoo :
@@ -2525,31 +4653,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 250,
-						height: 250,
-						left: -42,
-						top: -148
+	 					bamBam : {
+	 						width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+	 					},
+						bart : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						elmo : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						finn : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						fred : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						fox : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						goku : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						goofy : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						helloKitty : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						iceKing : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						link : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						marvin : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						mickey : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						mordecai : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						pikachu : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						samuraiJack : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						scoobyDoo : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						spaceGhost : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						spongeBob : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						},
+						yogiBear : {
+							width: 250,
+							height: 250,
+							left: -42,
+							top: -148
+						}
 	 				},
 	 			eye : 
 	 				{
 						width: 100,
-	 					height: 80,
-	 					left: -80,
-	 					top: -110
+						height: 80,
+						left: 32,
+						top: -98
 	 				},
 	 			mouth : 
 	 				{
 						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						height: 80,
+						left: 24,
+						top: -40
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 54,
+						height: 49,
+						left: 44,
+						top: -77
 	 				}
 	    	},
 	    spaceGhost :
@@ -2566,31 +4810,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 150,
-						height: 152,
-						left: 115,
-						top: -30
+	 					bamBam : {
+	 						width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+	 					},
+						bart : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						elmo : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						finn : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						fred : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						fox : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						goku : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						goofy : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						helloKitty : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						iceKing : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						link : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						marvin : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						mickey : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						mordecai : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						pikachu : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						samuraiJack : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						scoobyDoo : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						spaceGhost : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						spongeBob : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						},
+						yogiBear : {
+							width: 150,
+							height: 152,
+							left: 115,
+							top: -30
+						}
 	 				},
 	 			eye : 
 	 				{
-						width: 80,
-	 					height: 80,
-	 					left: -80,
-	 					top: -60
+						width: 56,
+						height: 48,
+						left: 152,
+						top: 26
 	 				},
 	 			mouth : 
 	 				{
-						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						width: 53,
+						height: 29,
+						left: 157,
+						top: 51
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 20,
+						height: 28,
+						left: 170,
+						top: 37
 	 				}
 	    	},
 	    spongeBob :
@@ -2607,31 +4967,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 252,
-						height: 291,
-						left: 67,
-						top: -184
+	 					bamBam : {
+	 						width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+	 					},
+						bart : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						elmo : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						finn : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						fred : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						fox : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						goku : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						goofy : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						helloKitty : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						iceKing : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						link : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						marvin : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						mickey : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						mordecai : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						pikachu : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						samuraiJack : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						scoobyDoo : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						spaceGhost : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						spongeBob : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						},
+						yogiBear : {
+							width: 252,
+							height: 291,
+							left: 67,
+							top: -184
+						}
 	 				},
 	 			eye : 
 	 				{
 						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						height: 80,
+						left: 135.5,
+						top: -86
 	 				},
 	 			mouth : 
 	 				{
 						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						height: 80,
+						left: 140.5,
+						top: -19
 	 				},
 	 			nose : 
 	 				{
 	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+						height: 80,
+						left: 152.5,
+						top: -63
 	 				}
 	    	},
 	    yogiBear :
@@ -2648,31 +5124,147 @@ $( document ).ready(function() {
 	 				},
 	 			head : 
 	 				{
-	 					width: 200,
-						height: 200,
-						left: 59,
-						top: -21
+	 					bamBam : {
+	 						width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+	 					},
+						bart : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						elmo : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						finn : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						fred : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						fox : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						goku : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						goofy : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						helloKitty : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						iceKing : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						link : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						marvin : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						mickey : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						mordecai : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						pikachu : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						samuraiJack : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						scoobyDoo : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						spaceGhost : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						spongeBob : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						},
+						yogiBear : {
+							width: 200,
+							height: 200,
+							left: 59,
+							top: -21
+						}
 	 				},
 	 			eye : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 89,
+						height: 61,
+						left: 92,
+						top: 46.5
 	 				},
 	 			mouth : 
 	 				{
-						width: 120,
-	 					height: 80,
-	 					left: -60,
-	 					top: -40
+						width: 78,
+						height: 55,
+						left: 97,
+						top: 96.5
 	 				},
 	 			nose : 
 	 				{
-	 					width: 80,
-	 					height: 80,
-	 					left: -40,
-	 					top: -40
+	 					width: 39,
+						height: 31,
+						left: 111,
+						top: 81.5
 	 				}
 	    	}	
 	};
