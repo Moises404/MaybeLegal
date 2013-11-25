@@ -909,7 +909,7 @@ $( document ).ready(function() {
 						//var parsed_clicked_spriteImage = clicked_spriteImage.substr(125).substr(0, clicked_spriteImage.length-126);
 						var parsed_clicked_spriteImage = clicked_spriteImage.substr(134).substr(0, clicked_spriteImage.length-135);
 
-							console.log(parsed_clicked_spriteImage);	
+							console.log(clicked_spriteImage);	
 						
 						var design_canvas_dataPath = 'assets/imageBin/completed_designs/';
 						design_layer_1.css({'background-image': 'url("' + design_canvas_dataPath + parsed_clicked_spriteImage + '")'});
