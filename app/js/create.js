@@ -910,7 +910,7 @@ $( document ).ready(function() {
 						var parsed_clicked_spriteImage = clicked_spriteImage.substr(125).substr(10, clicked_spriteImage.length-126);
 
 							console.log(clicked_spriteImage);
-							console.log(parsed_clicked_spriteImage + 'dsd===++');
+							console.log(parsed_clicked_spriteImage.substr(0, 4));
 							console.log('dsd');	
 						
 						var design_canvas_dataPath = 'assets/imageBin/completed_designs/';
