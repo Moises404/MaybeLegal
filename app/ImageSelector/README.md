@@ -1,5 +1,0 @@
-charCreator
-===========
-
-Character Creator UI
-
