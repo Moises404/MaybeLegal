@@ -927,6 +927,7 @@ $( document ).ready(function() {
 						var parsed_clicked_spriteImage = clicked_spriteImage.slice(85, clicked_spriteImage.length - 1);				
 
 							console.log(parsed_clicked_spriteImage);
+							console.log('HELLLLLO');
 
 						var design_canvas_dataPath = 'assets/imageBin/products/product_templates/product_template_objects/';
 						
